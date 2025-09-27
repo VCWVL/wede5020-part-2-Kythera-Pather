@@ -143,6 +143,8 @@ week 9 to 13
 
 ---
 # change log
+### PART 1 POE
+
 #### (4/07/2025) start research with the 2 proposals
 - 2 proposal research (Due 7 August 2025)
 - Decide on your project's purpose, audience, required pages and research actual websites.
@@ -168,6 +170,21 @@ week 9 to 13
 #### (27/08/2025)
 - Doing the README file
 - - Part 1: Building the Foundation (Due 27 August 2025)
+
+### PART 2
+
+#### (25/09/2025)
+- looked at Part 1 assigment, and noted chnages i needed to make from my lecture and what to improve or add on
+
+##### (26/09/2025)
+- Replaced mistakes I made and corrected it
+- Added the missing folderes
+- Made the commits more discriptive
+- Add the <main></main> tags on every page
+
+#### (27/09/2025)
+- Added a Login page which shows a link for the cutomser that are not login to take them to a sign up page.
+- 
 ---
 # Referencing 
 - Alamy. (n.d.). Conceptual hand writing showing workshop agenda concept. Available at: <https://www.alamy.com/conceptual-hand-writing-showing-workshop-agenda-concept-meaning-helps-you-to-ensure-that-your-workshop-stays-on-schedule-image343420021.html>  [Accessed 22 August 2025]
