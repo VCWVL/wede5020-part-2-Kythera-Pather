@@ -1,8 +1,14 @@
+/*
+* File: style.css
+* Description: Main stylesheet for the Exclusive Books website.
+* This file contains all styling for layout, typography, components, and responsiveness.
+*/
+
 /* ==========================================================================
    1. Base & Global Styles
    ========================================================================== */
 
-/* A simple CSS Reset */
+/* A simple CSS reset to ensure consistent styling across browsers. */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +16,8 @@
 }
 
 html {
-    font-size: 16px; /* Sets the base for rem units */
+    /* Sets the base for rem units */
+    font-size: 16px; 
     scroll-behavior: smooth;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -18,23 +25,28 @@ html {
 }
 
 body {
-    font-family: 'Oxygen Mono', monospace; /* Body font */
+    /* Default body font for readability and a modern, clean look. */
+    font-family: 'Oxygen Mono', monospace;
     line-height: 1.6;
     color: #333;
-    background-color: #e3e7fd;
+    background-color: #e6e7ec;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 main {
-    flex-grow: 1; /* Pushes footer to the bottom */
+    /* Allows the main content to grow and push the footer to the bottom of the page. */
+    flex-grow: 1; 
     width: 100%;
-    max-width: 1200px; /* Max width for content */
-    margin: 0 auto; /* Center the main content */
+    /* Max width for content */
+    max-width: 1200px; 
+    /* Center the main content */
+    margin: 0 auto; 
     padding: 2rem;
 }
 
+/* Ensures images scale down gracefully within their containers. */
 img {
     max-width: 100%;
     height: auto;
@@ -45,12 +57,15 @@ img {
    2. Typography
    ========================================================================== */
 
+/* Establishes a clear heading hierarchy with a distinct serif font for visual contrast. */
+/* Heading font */
 h1, h2, h3, h4 {
-    font-family: 'Pridi', serif; /* Heading font */
+    font-family: 'Pridi', serif; 
     font-weight: 700;
     line-height: 1.2;
     color: #093057;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 h1 { font-size: 2.8rem; }
@@ -59,6 +74,7 @@ h3 { font-size: 1.6rem; }
 h4 { font-size: 1.2rem; }
 
 p {
+    /* Standard paragraph margin for spacing and readability. */
     margin-bottom: 1rem;
 }
 
@@ -66,13 +82,14 @@ p {
    3. Header & Navigation
    ========================================================================== */
 
+/* The main site header, using flexbox for alignment of logo, title, and navigation. */
 .site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem 2rem;
-    background: #59b89b;
+    background: #2e6394;
     border-bottom: 1px solid #e0e0e0;
     top: 0;
     z-index: 1000;
@@ -81,6 +98,7 @@ p {
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
+/* Site logo styling. */
 .logo {
     width: 120px;
     height: auto;
@@ -88,6 +106,7 @@ p {
     cursor: pointer;
 }
 
+/* Container for the main title and search bar. */
 .header-content {
     display: flex;
     flex-direction: column;
@@ -100,6 +119,7 @@ p {
     margin-bottom: 0;
 }
 
+/* Search bar component with input and button. */
 .search-bar {
     display: flex;
     width: 100%;
@@ -114,6 +134,7 @@ p {
     gap: 0.5rem;
 }
 
+/* Search input field styling. */
 .search-bar input {
     flex-grow: 1;
     padding: 0.7rem;
@@ -122,10 +143,11 @@ p {
     font-family: 'Oxygen Mono', monospace;
 }
 
+/* Search button styling with a clear call-to-action color. */
 .search-bar button {
     padding: 0.7rem 1rem;
     border: none;
-    background-color: #09247e;
+    background-color: #802020;
     color: white;
     border-radius: 0 6px 6px 0;
     cursor: pointer;
@@ -136,7 +158,10 @@ p {
     background-color: #2980b9;
 }
 
-.main-nav { justify-self: flex-end; }
+/* Main navigation bar container. */
+.main-nav { 
+    justify-self: flex-end; 
+}
 .main-nav ul {
     list-style: none;
     display: flex;
@@ -145,17 +170,54 @@ p {
     gap: 0.5rem;
 }
 
+/* Styling for individual navigation links. */
 .main-nav a {
     display: block;
     padding: 0.6rem 1rem;
     text-decoration: none;
-    color: #333;
+    color: #f8f4f4;
     border-radius: 6px;
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Hover and active states for navigation links to provide user feedback. */
 .main-nav a:hover, .main-nav a.active {
     background-color: #3498db;
+    color: white;
+}
+
+/* Secondary navigation bar for book categories. */
+.category-nav {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.category-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+/* Styling for individual category links. */
+.category-nav a {
+    display: block;
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+    color: #093057;
+    background-color: #e3e7fd;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover and active states for category links. */
+.category-nav a:hover, .category-nav a.active {
+    background-color: #09247e;
     color: white;
 }
 
@@ -163,7 +225,8 @@ p {
    4. Page Components
    ========================================================================== */
 
-/* --- General Page Banner --- */
+/* A full-width banner used at the top of most pages for visual context. */
+/* General Page Banner for every page*/
 .page-banner {
     position: relative;
     text-align: center;
@@ -174,6 +237,7 @@ p {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+/* Banner image styling with a subtle zoom effect on hover. */
 .page-banner img {
     width: 100%;
     height: 350px;
@@ -186,6 +250,7 @@ p {
     transform: scale(1.1);
 }
 
+/* Text overlay on the banner, with a semi-transparent background for readability. */
 .banner-text {
     position: absolute;
     top: 50%;
@@ -198,7 +263,8 @@ p {
     max-width: 700px;
     text-align: center;
     z-index: 1;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Enhanced shadow for better readability */
+    /* Enhanced shadow for better readability */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
 }
 
 .banner-text h2 {
@@ -214,7 +280,7 @@ p {
     font-size: 1.2rem;
 }
 
-/* --- Content Sections --- */
+/* A generic container for main page content, providing a white background and padding. */
 .content-section {
     background: #fff;
     padding: 2rem;
@@ -223,15 +289,17 @@ p {
     margin-bottom: 2rem;
 }
 
-/* --- Book Cards (Index Page) --- */
+/* Grid layout for displaying multiple book cards. Adapts to screen size. */
+/* Book Cards (Index Page) */
 .book-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 2rem;
 }
 
+/* Individual card for displaying book information. Includes a hover effect. */
 .book-card {
-    background: #fff;
+    background: #f5f3f4;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     overflow: hidden;
@@ -245,12 +313,14 @@ p {
     box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
 
+/* Book cover image within the card. */
 .book-card img {
     width: 100%;
     height: 320px;
     object-fit: cover;
 }
 
+/* Container for text content within a book card. */
 .book-info {
     padding: 1rem;
     flex-grow: 1;
@@ -263,11 +333,11 @@ p {
 .book-info .summary { flex-grow: 1; }
 .book-info .price { font-size: 1.1rem; font-weight: bold; color: #e74c3c; margin-top: 1rem; margin-bottom: 1rem; }
 
-/* --- Buttons --- */
+/* General button styling for calls to action like 'Add to Cart'. */
 .btn {
     display: inline-block;
     padding: 0.8rem 1.5rem;
-    background: #27ae60;
+    background: #417958;
     color: white;
     font-weight: bold;
     border: none;
@@ -278,12 +348,13 @@ p {
     transition: background-color 0.3s, transform 0.2s;
 }
 
+/* Hover effect for buttons to provide feedback on interaction. */
 .btn:hover {
     background: #229954;
     transform: scale(1.03);
 }
 
-/* --- Forms (Contact, Service pages) --- */
+/* Standard styling for forms used on pages like Contact and Enquiry. */
 .styled-form {
     display: flex;
     flex-direction: column;
@@ -292,16 +363,19 @@ p {
     margin: 0 auto;
 }
 
+/* A container for a label and its corresponding input field. */
 .form-group {
     display: flex;
     flex-direction: column;
 }
 
+/* Form field labels. */
 .form-group label {
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
 
+/* Common styling for text inputs and textareas. */
 .form-group input,
 .form-group textarea {
     padding: 0.8rem;
@@ -311,7 +385,8 @@ p {
     width: 100%;
 }
 
-/* --- Team Grid (About Page) --- */
+/* Grid layout for the team section on the About page. */
+/* Team Grid (About Page) */
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -319,6 +394,7 @@ p {
     text-align: center;
 }
 
+/* Styling for team member profile images. */
 .team-member img {
     width: 150px;
     height: 150px;
@@ -327,48 +403,166 @@ p {
     margin: 0 auto 1rem;
 }
 
-/* --- Events Grid (Events Page) --- */
+/* Grid layout for the events list on the Events page. */
+/* Events Grid (Events Page) */
 .events-grid {
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr;
-}
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;}
 
+/* Individual card for displaying event information. */
 .event-card {
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background: #f5f2ec;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     overflow: hidden;
 }
 
+/* Event image styling. 'object-fit: none' is unusual, consider 'cover' or 'contain'. */
 .event-card img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: none;
+    object-position: center;
+    border-radius: 8px 8px 0 0;
 }
 
+/* Container for text content within an event card. */
 .event-info {
     padding: 1.5rem;
 }
+
 
 /* ==========================================================================
    5. Footer
    ========================================================================== */
 
+/* Main site footer, appears at the bottom of every page. */
 .site-footer-main {
     text-align: center;
     padding: 2rem;
     background: #2c3e50;
     color: #ecf0f1;
     margin-top: auto; /* Pushes footer to bottom */
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+}
+
+.site-footer-main p {
+    margin: 0;
 }
 
 /* ==========================================================================
-   6. Responsive Design
+   6. Page-Specific & Component Styles
    ========================================================================== */
 
+/* Styles for data tables used on the Stores and Cart pages. */
+/* Tables (Stores & Cart) */
+.table-container {
+    /* Allows table to be scrolled horizontally on small screens */
+    overflow-x: auto; 
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9em;
+    /* Minimum width before horizontal scroll appears */
+    min-width: 600px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styling. */
+.styled-table thead tr {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Cell padding for both header and body cells. */
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+/* Adds a bottom border to all rows except the last one. */
+.styled-table tbody tr:not(:last-of-type) {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Zebra-striping for table rows to improve readability. */
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* A heavier border for the last row to visually separate it from the footer/summary. */
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3498db;
+}
+
+/* Container for the embedded Google Map, maintaining a 16:9 aspect ratio. */
+/* Map (Stores Page) */
+.map-container {
+    position: relative;
+    overflow: hidden;
+    /* 16:9 Aspect Ratio */
+    padding-top: 56.25%; 
+    border-radius: 8px;
+}
+
+/* Ensures the iframe fills the map container. */
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Container for the cart total and action buttons. */
+/* Cart Summary & Actions (Cart Page) */
+.cart-summary {
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.cart-actions {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+/* A secondary button style, used for 'Continue Shopping'. */
+.btn-secondary {
+    background-color: #95a5a6;
+}
+.btn-secondary:hover {
+    background-color: #7f8c8d;
+}
+
+/* ==========================================================================
+   7. Responsive Design & Media Queries
+   ========================================================================== */
+
+/* Styles for very large screens to prevent content from stretching too far. */
+/* Extra Large Desktop */
+@media (min-width: 1400px) {
+    .site-header {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+/* On smaller desktops, stack the header items vertically for better layout. */
 /* Larger Tablet / Small Desktop */
 @media (max-width: 992px) {
     .site-header {
@@ -377,12 +571,14 @@ p {
     }
 }
 
+/* Tablet-specific adjustments. */
 /* Tablet */
 @media (max-width: 768px) {
     main {
         padding: 1rem;
     }
 
+    /* Re-arrange header elements for a more compact view. */
     .site-header {
         flex-direction: row;
         justify-content: space-between;
@@ -394,17 +590,22 @@ p {
         margin-top: 1rem;
     }
 
+    /* Make the main navigation horizontally scrollable on smaller screens. */
     .main-nav {
         order: 1;
         width: 100%;
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        /* Smooth scrolling on iOS */
+        -webkit-overflow-scrolling: touch; 
     }
 
     .main-nav ul {
-        flex-wrap: nowrap; /* Prevent items from wrapping */
-        justify-content: flex-start; /* Align items to the start */
-        padding-bottom: 0.5rem; /* Add some space for the scrollbar */
+        /* Prevent items from wrapping */
+        flex-wrap: nowrap; 
+        /* Align items to the start */
+        justify-content: flex-start; 
+        /* Add some space for the scrollbar */
+        padding-bottom: 0.5rem; 
     }
 
     .page-banner img {
@@ -419,12 +620,14 @@ p {
     h2 { font-size: 1.8rem; }
 }
 
+/* Mobile-specific adjustments for the smallest screens. */
 /* Mobile */
 @media (max-width: 480px) {
     .header-content h1 {
         font-size: 2rem;
     }
 
+    /* Reduce font sizes in the banner for better fit. */
     .banner-text h2 {
         font-size: 1.5rem;
     }
@@ -432,18 +635,22 @@ p {
         font-size: 1rem;
     }
 
+    /* Stack grid items into a single column on mobile. */
     .book-grid {
         grid-template-columns: 1fr;
     }
 
+    /* Stack event cards into a single column. */
     .events-grid {
         grid-template-columns: 1fr;
     }
 
+    /* Stack team members into a single column. */
     .team-grid {
         grid-template-columns: 1fr;
     }
 
+    /* Further reduce banner height on mobile. */
     .page-banner img {
         height: 200px;
     }
@@ -452,83 +659,3 @@ p {
         padding: 1rem;
     }
 }
-
-/* ==========================================================================
-   7. Page-Specific Styles
-   ========================================================================== */
-
-/* --- Tables (Stores & Cart) --- */
-.table-container {
-    overflow-x: auto; /* Allows table to be scrolled horizontally on small screens */
-}
-
-.styled-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0;
-    font-size: 0.9em;
-    min-width: 600px; /* Minimum width before horizontal scroll appears */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.styled-table thead tr {
-    background-color: #3498db;
-    color: #ffffff;
-    text-align: left;
-}
-
-.styled-table th,
-.styled-table td {
-    padding: 12px 15px;
-}
-
-.styled-table tbody tr:not(:last-of-type) {
-    border-bottom: 1px solid #dddddd;
-}
-
-.styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
-
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #3498db;
-}
-
-/* --- Map (Stores Page) --- */
-.map-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-    border-radius: 8px;
-}
-
-.map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-/* --- Cart Summary & Actions (Cart Page) --- */
-.cart-summary {
-    text-align: right;
-    margin-top: 2rem;
-}
-
-.cart-actions {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-}
-
-.btn-secondary {
-    background-color: #95a5a6;
-}
-.btn-secondary:hover {
-    background-color: #7f8c8d;
-}
-
-/*

@@ -4,121 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>booktok</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Pridi:wght@400;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!--Header-->
-    <header>
-        <!--logo-->
-        <img src="_images\exclusive_book_logo.jpg" alt="Exclusive Books Logo" width="150px" height="100px">
-        <h1>Exclusive Books</h1>
-        <input type="text" placeholder="Search for your books here...">
-        <button>Search</button>
-
+    <header class="site-header">
+        <!--The code shows the logo image-->
+        <a href="index.html" class="logo-link"><img src="_images/exclusive_book_logo.jpg" alt="Exclusive Books Logo" class="logo"></a>
+        <div class="header-content">
+            <h1>Exclusive Books</h1>
+            <div class="search-bar">
+                <!--Allows the user to search up a book name-->
+                <input type="text" placeholder="Search for your books here...">
+                <button>Search</button>
+            </div>
+        </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
-        <nav>
-        <a href="index.html">Home</a> |
-        <a href="events.html">Events</a> |
-        <a href="stores.html">Stores</a> |
-        <a href="about.html">About Us</a>|
-        <a href="contact.html">Contact</a> |
-        <a href="service.html">Services</a> |
-        <a href="enquiry.html">Enquiry</a> |
-        <a href="cart.html">Cart</a> |
-        <a href="login.html">Login</a> |
-        <a href="signup.html">Signup</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="stores.html">Stores</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
         </nav>
     </header>
-    <br>
-    <hr>
 
     <main>
-    <!--Category Banner thats labled with what section it is-->
-    <section class="category-banner">
-        <h2>Explore Our BookTok Collection</h2>
-        <p>Discover trending books that are taking BookTok by storm. Join the community of readers sharing their favorite reads!</p>
-        <img src="_images\bookstore_banner_second.jpg" alt="BookTok Books Banner" width="400px" height="300px">
-        <br>
-        <hr>
-    </section>
+        <!-- Category Navigation -->
+            <!--The code helps to link the pagers to its connected and go into one pahe into the next while also displaying the categories-->
+        <nav class="category-nav">
+            <ul>
+                <li><a href="fiction.html">Fiction</a></li>
+                <li><a href="non-fiction.html">Non-Fiction</a></li>
+                <li><a href="children.html">Children</a></li>
+                <li><a href="autobiographies.html">Autobiographies</a></li>
+                <li><a href="bookTok.html" class="active">BookTok</a></li>
+                <li><a href="religion.html">Religion</a></li>
+                <li><a href="biography.html">Biography</a></li>
+            </ul>
+        </nav>
 
-    <!--BookTok Section-->
-    <section class="book-list">
-        <h2>Popular BookTok Books</h2>
-        <div class="booktok Book-items">
-            <div class="book-item">
-                 <!--the code here helps to give us an image, information about the such has a summary, review, rating and price for the customer to see-->
-                <img src="_images\once_upon_a_broken_heart_booktok.jpg" alt="BookTok Book 1" width="150px" height="200px">
-                <h4>Once upon a broken heart</h4>
-                <p><strong>Author:</strong> Stephanie Garber</p>
-                <p><strong>Summary:</strong>A captivating fantasy novel about a young woman who makes a deal with the Prince of Hearts, leading her on a journey filled with magic, heartbreak, and adventure.</p>
-                <p><strong>Review/Rating:</strong> “Enchanting and beautifully written, this book will sweep you off your feet.” <strong>4.8/5 Stars</strong></p>
-                <p><strong>Price: </strong>R320</p>
-                <!--Butoon used to save all the iteams the customer wants and go to the cart page for the customer to see-->
-                <button>Add to Cart</button>
+        <!--Category Banner-->
+        <section class="page-banner">
+            <img src="_images/bookstore_banner_second.jpg" alt="BookTok Books Banner">
+            <div class="banner-text">
+                <h2>Explore Our BookTok Collection</h2>
+                <p>Discover trending books that are taking BookTok by storm!</p>
             </div>
-            <hr>
-            <br>
-            <div class="book-item">
-                <img src="_images\the_love_hypothesis_booktok.jpg" alt="BookTok Book 2" width="150px" height="200px">
-                <h3>The love hypothesis</h3>
-                <p><strong>Author: </strong>Ali Hazelwood</p>
-                <p><strong>Summary:</strong>A charming romantic comedy about a PhD student who fakes a relationship with a professor, leading to unexpected feelings and hilarious situations.</p>
-                <p><strong>Review/Rating:</strong> “A delightful and witty read that captures the essence of academic life and romance.” <strong>4.7/5 Stars</strong></p>
-                <p><strong>Price: </strong>R300</p>
-                <button>Add to Cart</button>
-            </div>
-            <hr>
-            <br>
-            <div class="book-item">
-                <img src="_images/shatter_me_booktok.jpg" alt="BookTok Book 3" width="150px" height="200px">
-                <h3>Shatter me</h3>
-                <p><strong>Author: </strong>Tahereh Mafi</p>
-                <p><strong>Summary:</strong>A dystopian novel about Juliette Ferrars who has a lethal touch and is imprisoned for her powers, but finds hope and love in an unexpected ally.</p>
-                <p><strong>Review/Rating:</strong> “A gripping tale of survival, love, and the fight for freedom that will keep you on the edge of your seat.” <strong>4.6/5 Stars</strong></p>
-                <p><strong>Price: </strong>R280</p> 
-                <button>Add to Cart</button>
-            </div>
-            <hr>
-            <br>
-            <div class="book-item">
-                <img src="_images\the_cruel_prince_booktok.jpg" alt="BookTok Book 4" width="150px" height="200px">
-                <h3>The cruel prince</h3>
-                <p><strong>Author: </strong>Holly Black</p>
-                <p><strong>Summary:</strong>A dark fantasy about Jude, a morally ambitious mortal girl navigating the treacherous politics of the Faerie Court, where betrayal and power are everything.</p>
-                <p><strong>Review/Rating:</strong> “Intricate, thrilling, and full of twists—an unforgettable journey into the world of faeries.” <strong>4.7/5 Stars</strong></p>
-                <p><strong>Price: </strong>R310</p>
-                <button>Add to Cart</button>
-            </div>
-            <hr>
-            <br>
-        </div>
-    </section>
-    <hr>
-    <br>
-      
-    <!--Categories-->
-        <section class=" categories">
-        <h2>Categories</h2>
-        <!--Take the user to diffrent categories page to see diffrent books-->
-    <div class="category-grid">
-        <a href="fiction.html" class="category">FICTION</a> |
-        <a href="non-fiction.html" class="category">NON-FICTION</a> |
-        <a href="children.html" class="category">CHILDREN</a> | 
-        <a href="autobiographies.html" class="category">AUTOBIOGRAPHIES</a> |
-        <a href="bookTok.html" class="category">BOOKTOK</a> |
-        <a href="religion.html" class="category">RELIGION</a> |
-        <a href="biography.html" class="category">BIOGRAPHY</a> |
-    </div>
         </section>
-        </main>
-        
-        <br>
-        <hr>
 
+        
+        <!--BookTok Section-->
+        <section class="content-section">
+            <h2>Popular BookTok Books</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <img src="_images/once_upon_a_broken_heart_booktok.jpg" alt="Once Upon a Broken Heart">
+                    <div class="book-info">
+                        <!--Code implements the books name-->
+                        <h3>Once Upon a Broken Heart</h3>
+                        <!--Code implements the books author-->
+                        <p class="author">Stephanie Garber</p>
+                        <!--Code implements the books summary-->
+                        <p class="summary">A captivating fantasy about a deal with the Prince of Hearts, filled with magic and adventure.</p>
+                        <!--Code implements the books price-->
+                        <p class="price">R320.00</p>
+                        <!--Code implements the add to cart button, which will take the user to the add to cart page-->
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="_images/the_love_hypothesis_booktok.jpg" alt="The Love Hypothesis">
+                    <div class="book-info">
+                        <h3>The Love Hypothesis</h3>
+                        <p class="author">Ali Hazelwood</p>
+                        <p class="summary">A charming rom-com about a PhD student who fakes a relationship with a professor.</p>
+                        <p class="price">R300.00</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="_images/shatter_me_booktok.jpg" alt="Shatter Me">
+                    <div class="book-info">
+                        <h3>Shatter Me</h3>
+                        <p class="author">Tahereh Mafi</p>
+                        <p class="summary">A dystopian novel about a girl with a lethal touch who finds hope and love in an unexpected ally.</p>
+                        <p class="price">R280.00</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="_images/the_cruel_prince_booktok.jpg" alt="The Cruel Prince">
+                    <div class="book-info">
+                        <h3>The Cruel Prince</h3>
+                        <p class="author">Holly Black</p>
+                        <p class="summary">A dark fantasy about a mortal girl navigating the treacherous politics of the Faerie Court.</p>
+                        <p class="price">R310.00</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!--Footer-->
-    <footer>
-        <p>&copy; 2023 Exclusive Books. All rights reserved.</p>
+    <footer class="site-footer-main">
+        <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
 
 </body>

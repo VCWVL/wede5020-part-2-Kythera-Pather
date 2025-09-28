@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>biography</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Pridi:wght@400;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <!--Header-->
     <header class="site-header">
+        <!--The code shows the logo image-->
         <a href="index.html" class="logo-link"><img src="_images/exclusive_book_logo.jpg" alt="Exclusive Books Logo" class="logo"></a>
         <div class="header-content">
             <h1>Exclusive Books</h1>
             <div class="search-bar">
+                <!--Allows the user to search up a book name-->
                 <input type="text" placeholder="Search for your books here...">
                 <button>Search</button>
             </div>
@@ -34,94 +42,85 @@
     </header>
 
     <main>
-    <!--Category Banner thats labled with what section it is-->
-    <section class="category-banner">   
+    <!-- Category Navigation -->
+         <!--The code helps to link the pagers to its connected and go into one pahe into the next while also displaying the categories-->
+    <nav class="category-nav">
+        <ul>
+            <li><a href="fiction.html">Fiction</a></li>
+            <li><a href="non-fiction.html">Non-Fiction</a></li>
+            <li><a href="children.html">Children</a></li>
+            <li><a href="autobiographies.html">Autobiographies</a></li>
+            <li><a href="bookTok.html">BookTok</a></li>
+            <li><a href="religion.html">Religion</a></li>
+            <li><a href="biography.html" class="active">Biography</a></li>
+        </ul>
+    </nav>
 
-        <h2>Explore Our Biography Collection</h2>
-        <p>Discover the lives of remarkable individuals and their journeys through our curated selection of biography books.</p>
-        <img src="_images\bookstore_banner_second.jpg" alt="Biography Books Banner" width="400px" height="300px">
-        <br>
-        <hr>
+    <!--Category Banner thats labled with what section it is-->
+    <section class="page-banner">
+        <img src="_images/bookstore_banner_second.jpg" alt="Biography Books Banner">
+        <div class="banner-text">
+            <h2>Explore Our Biography Collection</h2>
+            <p>Discover the lives of remarkable individuals and their journeys.</p>
+        </div>
     </section>
 
     <!--Biography Section-->
-    <section class="book-list">
+    <section class="content-section">
         <h2>Popular Biography Books</h2>
-        <div class="biography Book-items">
-            <div class="book-item">
-                <!--the code here helps to give us an image, information about the such has a summary, review, rating and price for the customer to see-->
-                <img src="_images\einstein_his_life_and_universe_biography.jpg" alt="Biography Book 1" width="150px" height="200px">
-                <h4>Einstein his life and universe</h4>
-                <!--The code shows the author of the book-->
-                <p><strong>Author:</strong>Walter Isaacson</p>
-                <!--The code shows a summary of the book-->
-                <p><strong>Summary:</strong> A comprehensive biography of Albert Einstein, exploring his scientific achievements and personal life.</p>
-                <!--The code shows a review and rating of the book-->
-                <p><strong>Review/Rating:</strong> “A detailed and engaging portrayal of one of history’s greatest minds.” <strong>4.6/5 Stars</strong></p>
-                <!--The code shows the price of the book-->
-                <p><strong>Price:</strong> R450.00</p>
-                <!--Butoon used to save all the iteams the customer wants and go to the cart page for the customer to see-->
-                <button>Add to Cart</button>
+        <div class="book-grid">
+            <div class="book-card">
+                <img src="_images/einstein_his_life_and_universe_biography.jpg" alt="Einstein: His Life and Universe">
+                <div class="book-info">
+                    <!--Code implements the books name-->
+                    <h3>Einstein: His Life and Universe</h3>
+                    <!--Code implements the books author-->
+                    <p class="author">Walter Isaacson</p>
+                    <!--Code implements the books summary-->
+                    <p class="summary">A comprehensive biography of Albert Einstein, exploring his scientific achievements and personal life.</p>
+                    <!--Code implements the books price-->
+                    <p class="price">R450.00</p>
+                    <!--Code implements the add to cart button, which will take the user to the add to cart page-->
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
             </div>
-            <hr>
-           <div class="book-item">
-                <img src="_images\napoleon_concise_biography.jpg" alt="Non-Fiction Book 1" width="150px" height="200px">
-                <h3>Napoleon concise biography</h3>
-                <p><strong>Author: </strong>David A. Bell</p>
-                <p><strong>Summary:</strong>A concise biography of Napoleon Bonaparte, detailing his rise to power, military campaigns, and lasting impact on Europe.</p>  
-                <p><strong>Review/Rating:</strong>“A well-written and accessible overview of a complex historical figure.” <strong>4.3/5 Stars</strong></p>  
-                <p><strong>Price: </strong>R299</p>
-                <button>Add to Cart</button>
+            <div class="book-card">
+                <img src="_images/napoleon_concise_biography.jpg" alt="Napoleon: A Concise Biography">
+                <div class="book-info">
+                    <h3>Napoleon: A Concise Biography</h3>
+                    <p class="author">David A. Bell</p>
+                    <p class="summary">A concise biography of Napoleon Bonaparte, detailing his rise to power and military campaigns.</p>
+                    <p class="price">R299.00</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
             </div>
-            <hr>
-            <br>
-            <div class="book-item">
-                <img src="_images\elon_musk_biography.jpg" alt="Biography Book 3" width="150px" height="200px">
-                <h3>Elon Musk</h3>
-                <p><strong>Author: </strong>Walter Isaacson</p>
-                <p><strong>Summary:</strong>Elon Musk by Walter Isaacson chronicles the life of the visionary entrepreneur behind Tesla, SpaceX, and other groundbreaking ventures.</p>  
-                <p><strong>Review/Rating:</strong>"An insightful look into the mind of a modern innovator." <strong>4.5/5 Stars</strong></p>  
-                <p><strong>Price: </strong>R500</p>
-                <button>Add to Cart</button>
+            <div class="book-card">
+                <img src="_images/elon_musk_biography.jpg" alt="Elon Musk by Walter Isaacson">
+                <div class="book-info">
+                    <h3>Elon Musk</h3>
+                    <p class="author">Walter Isaacson</p>
+                    <p class="summary">Chronicles the life of the visionary entrepreneur behind Tesla, SpaceX, and other ventures.</p>
+                    <p class="price">R500.00</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
             </div>
-            <hr>
-            <br>
-            <div class="book-item">
-                <img src="_images\biography_an_historiography.jpg" alt="Biography Book 4" width="150px" height="200px">
-                <h3>Biography: an historiography</h3>
-                <p><strong>Author: </strong>Melanie Nolan</p>
-                <p><strong>Summary:</strong>Biography: An Historiography by Melanie Nolan explores the evolution of biographical writing and its significance in understanding history and culture.</p>  
-                <p><strong>Review/Rating:</strong>"A fascinating exploration of the art and craft of biography." <strong>4.4/5 Stars</strong></p>  
-                <p><strong>Price: </strong>R350</p>
-                <button>Add to Cart</button>
+            <div class="book-card">
+                <img src="_images/biography_an_historiography.jpg" alt="Biography: An Historiography">
+                <div class="book-info">
+                    <h3>Biography: An Historiography</h3>
+                    <p class="author">Melanie Nolan</p>
+                    <p class="summary">Explores the evolution of biographical writing and its significance in understanding history.</p>
+                    <p class="price">R350.00</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
             </div>
-            </section>
-
-            <br>
-            <hr>
-
-          <!--Categories-->
-        <section class=" categories">
-        <h2>Categories</h2>
-        <!--Take the user to diffrent categories page to see diffrent books-->
-    <div class="category-grid">
-        <a href="fiction.html" class="category">FICTION</a> |
-        <a href="non-fiction.html" class="category">NON-FICTION</a> |
-        <a href="children.html" class="category">CHILDREN</a> | 
-        <a href="autobiographies.html" class="category">AUTOBIOGRAPHIES</a> |
-        <a href="bookTok.html" class="category">BOOKTOK</a> |
-        <a href="religion.html" class="category">RELIGION</a> |
-        <a href="biography.html" class="category">BIOGRAPHY</a> |
-    </div>
+        </div>
         </section>
     </main>
 
-        <br>
-        <hr>
-
-        <!--Footer-->
-    <footer>
-        <p>&copy; 2023 Exclusive Books. All rights reserved.</p>
+    <!--Footer-->
+    <footer class="site-footer-main">
+        <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
 </body>
 </html>

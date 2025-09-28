@@ -14,14 +14,17 @@
 <body>
     <!--Header-->
     <header class="site-header">
+        <!--The code shows the logo image-->
         <a href="index.html" class="logo-link"><img src="_images/exclusive_book_logo.jpg" alt="Exclusive Books Logo" class="logo"></a>
         <div class="header-content">
             <h1>Exclusive Books</h1>
             <div class="search-bar">
+                <!--Allows the user to search up a book name-->
                 <input type="text" placeholder="Search for your books here...">
                 <button>Search</button>
             </div>
         </div>
+        <!--Navigation to diffrent pagers in the website and are connected -->
         <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -39,6 +42,7 @@
     </header>
 
     <main>
+        <!--Category Banner thats labled with what section it is-->
         <section class="page-banner">
             <img src="_images/bookstore_banner.jpg" alt="Login Banner">
             <div class="banner-text">
@@ -47,7 +51,9 @@
             </div>
         </section>
         <section class="content-section form-section">
+            <!--The code creates a login form for the user to fill in-->
                 <h2>User Login</h2>
+                <!--The code allows the user enters their details into the form-->
                 <form action="process_login.html" method="POST" class="styled-form">
                     <div class="form-group"><label for="username">Username:</label><input type="text" id="username" name="username" required></div>
                     <div class="form-group"><label for="password">Password:</label><input type="password" id="password" name="password" required></div>
