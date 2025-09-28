@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <!--Logo-->
+        <img src="_images\exclusive_book_logo.jpg" alt="Exclusive Books Logo" width="150px" height="100px">
+        <h1>Exclusive Books</h1>
+        <!--Search bar with form-->
+        <input type="text" placeholder="Search for your books here...">
+        <button>Search</button>
+
+   
+<!--Navigation to diffrent pagers in the website and are connected -->
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="events.html">Events</a> |
+            <a href="stores.html">Stores</a> |
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="service.html">Services</a> |
+            <a href="enquiry.html">Enquiry</a> |
+            <a href="cart.html">Cart</a> |
+            <a href="signup.html">Signup</a> |
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <br>
+    <hr>
+
+     <header>
+        <!--Category Banner thats labled with what section it is-->
+    <section class="category-banner">
+        <h2>Login</h2>
+        <p>Please login into your account to continue shopping.</p>
+        <!--The code shows a banner for the stores page-->
+        <img src="_images\bookstore_banner.jpg" alt="Stores Banner" width="400px" height="300px">
+    </section>
+    <br>    
+    <hr>
+
+    <main>
+            <section class="login-form">    
+                <h2>User Login</h2>
+                <form action="process_login.html" method="POST">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <input type="submit" value="Login">
+                </form>
+                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            </section>
+        </section>
+
+        <footer>
+        <p>&copy; 2023 Exclusive Books. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
