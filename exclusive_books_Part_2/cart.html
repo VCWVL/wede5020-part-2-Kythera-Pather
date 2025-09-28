@@ -4,73 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
+     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Pridi:wght@400;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
     
 </head>
 <body>
   <!--Header-->
-    <header>
-      <!--logo-->
-        <img src="_images\exclusive_book_logo.jpg" alt="Exclusive Books Logo" width="150px" height="100px">
-        <!--Search bar with form-->
-        <h1>Exclusive Books</h1>
-        <input type="text" placeholder="Search for your books here...">
-        <button>Search</button>
-
+    <header class="site-header">
+        <a href="index.html" class="logo-link"><img src="_images/exclusive_book_logo.jpg" alt="Exclusive Books Logo" class="logo"></a>
+        <div class="header-content">
+            <h1>Exclusive Books</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for your books here...">
+                <button>Search</button>
+            </div>
+        </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
-        <nav>
-        <a href="index.html">Home</a> |
-        <a href="events.html">Events</a> |
-        <a href="stores.html">Stores</a> |
-        <a href="about.html">About Us</a>|
-        <a href="contact.html">Contact</a> |
-        <a href="service.html">Services</a> |
-        <a href="enquiry.html">Enquiry</a> |
-        <a href="cart.html">Cart</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="stores.html">Stores</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
         </nav>
     </header>
-  <br>
-  <hr>
 
   <main>
   <!--Category Banner thats labled with what section it is-->
-  <section class="category-banner">
-    <!--The code shows a banner for the cart page-->
-    <h2>Your Shopping Cart</h2>
-    <p>Review the items in your cart before proceeding to checkout.</p>
-    <img src="_images\bookstore_banner_second.jpg" alt="Cart Banner" width="400px" height="300px">
-    <br></br>
-    <hr>
+  <section class="page-banner">
+    <img src="_images/bookstore_banner_second.jpg" alt="Cart Banner">
+    <div class="banner-text">
+        <h2>Your Shopping Cart</h2>
+        <p>Review the items in your cart before proceeding to checkout.</p>
+    </div>
   </section>
 
   <!--Cart Items Section-->
-  <section class="cart-items">
+  <section class="content-section">
     <h2>Items in Your Cart</h2>
-    <!--Table used to show the customer what they have in their cart with the price and total amount-->
-    <table border="1">
-      <tr>
-        <th>Book Title</th>
-        <th>Author</th>
-        <th>Price</th>
-        <th>Quantity</th>
-        <th>Total</th>
-      </tr>
-     <!--More items can be added here -->
-    </table>
-    <h3>Total Amount:</h3>
-    <!--Buttons to either proceed to checkout or continue shopping-->
-    <button>Proceed to Checkout</button>
-    <!--Button to go back and search for items-->
-    <button>Continue Shopping</button>
+    <div class="table-container">
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Book Title</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example Row: Add more <tr>...</tr> for more items -->
+                <tr>
+                    <td>The Great Gatsby</td>
+                    <td>F. Scott Fitzgerald</td>
+                    <td>R250.00</td>
+                    <td>1</td>
+                    <td>R250.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="cart-summary">
+        <h3>Total Amount: R250.00</h3>
+        <div class="cart-actions">
+            <a href="index.html" class="btn btn-secondary">Continue Shopping</a>
+            <a href="#" class="btn">Proceed to Checkout</a>
+        </div>
+    </div>
   </section>
   </main>
 
-  <br>
-  <hr>
-
   <!--Footer-->
-  <footer>
-    <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
+  <footer class="site-footer-main">
+      <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
   </footer>
   
 </body>
