@@ -185,6 +185,12 @@ week 9 to 13
 #### (27/09/2025)
 - Added a Login page which shows a link for the cutomser that are not login to take them to a sign up page.
 
+#### (28/09/2025)
+- Finshed the Login and sign up page and commited it
+- -Had to change some html code for all the pageres so that it goes with the css code smothly. changed the nav and improved it. brought up the catergories up so the user can see it, took <hr> and <br> out since i dont need it. added more commits. and improved a few code mistakes.
+- Did the css code in the style.css for all the pages. took catergoires.css out because it would clash and easier to do all together.
+- added discriptive comments to explane code.
+- 
 ---
 # Referencing 
 - Alamy. (n.d.). Conceptual hand writing showing workshop agenda concept. Available at: <https://www.alamy.com/conceptual-hand-writing-showing-workshop-agenda-concept-meaning-helps-you-to-ensure-that-your-workshop-stays-on-schedule-image343420021.html>  [Accessed 22 August 2025]
