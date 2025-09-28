@@ -184,7 +184,7 @@ week 9 to 13
 
 #### (27/09/2025)
 - Added a Login page which shows a link for the cutomser that are not login to take them to a sign up page.
-- 
+
 ---
 # Referencing 
 - Alamy. (n.d.). Conceptual hand writing showing workshop agenda concept. Available at: <https://www.alamy.com/conceptual-hand-writing-showing-workshop-agenda-concept-meaning-helps-you-to-ensure-that-your-workshop-stays-on-schedule-image343420021.html>  [Accessed 22 August 2025]
