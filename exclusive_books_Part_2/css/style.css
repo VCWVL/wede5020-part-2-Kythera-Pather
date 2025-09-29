@@ -69,7 +69,8 @@ h1, h2, h3, h4 {
 }
 
 h1 { font-size: 2.8rem; }
-h2 { font-size: 2.2rem; margin-top: 2rem; }
+/* Removed top margin to prevent inconsistent spacing inside content sections. Spacing is now handled by the section itself. */
+h2 { font-size: 2.2rem; }
 h3 { font-size: 1.6rem; }
 h4 { font-size: 1.2rem; }
 
@@ -287,6 +288,12 @@ p {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     margin-bottom: 2rem;
+}
+
+/* Adds consistent vertical spacing between the banner and the main content on all pages.
+   This fixes the "close up" layout on the homepage and aligns all other pages. */
+.page-banner + .content-section {
+    margin-top: 2rem;
 }
 
 /* Grid layout for displaying multiple book cards. Adapts to screen size. */
