@@ -195,7 +195,7 @@ week 9 to 13
 - Finshed the Login and sign up page and commited it
 - Had to change some html code for all the pageres so that it goes with the css code smothly.
 - changed the nav and improved it.
-- brought up the catergories up so the user can see it, took <hr> and <br> out since i dont need it.
+- brought up the catergories up so the user can see it, took hr and br out since i dont need it.
 - Added more commits and improved a few code mistakes.
 - Did the css code in the style.css for all the pages. took catergoires.css out and put it above  because it would clash and easier to do all together.
 - Created a comprehensive `style.css` file to manage all visual aspects, including colors, fonts, spacing, and layout.
