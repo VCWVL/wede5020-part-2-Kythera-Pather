@@ -246,6 +246,10 @@ Several key improvements were made to transition the project from its foundation
 <img width="719" height="921" alt="image" src="https://github.com/user-attachments/assets/40ff3902-f34a-4098-ab12-ed77c66954d4" />
 <img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/8a2df78e-281c-493f-91c4-b91d39316c2f" />
 
+## how the website looks
+### Home page 
+<img width="1894" height="951" alt="image" src="https://github.com/user-attachments/assets/038474a7-5488-4f39-b1cf-386c158a73db" />
+<img width="1909" height="678" alt="image" src="https://github.com/user-attachments/assets/83a49051-3136-4bbe-a9ad-edc532548360" />
 
 
 # Referencing 
