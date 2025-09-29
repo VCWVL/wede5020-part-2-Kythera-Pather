@@ -228,6 +228,24 @@ Several key improvements were made to transition the project from its foundation
 - **Descriptive Comments:** Comments were added to both the HTML and CSS files to explain the purpose of different code sections, improving code readability and maintainability.
 
 # screenshot of the css code
+## style.css
+<img width="757" height="919" alt="image" src="https://github.com/user-attachments/assets/1a1ba2b8-68e8-4599-ab0e-73ab6898acc9" />
+<img width="1060" height="953" alt="image" src="https://github.com/user-attachments/assets/e0e62eb5-c43c-4709-93c9-e8d7ad86c94c" />
+<img width="730" height="731" alt="image" src="https://github.com/user-attachments/assets/32a37c32-073a-4bab-bfde-dd457e6b169e" />
+<img width="667" height="838" alt="image" src="https://github.com/user-attachments/assets/81e449f6-8c8e-48af-91df-46baeb579ab7" />
+<img width="634" height="829" alt="image" src="https://github.com/user-attachments/assets/e82b6c3d-68cb-4f74-a502-07b52340d6dc" />
+<img width="690" height="859" alt="image" src="https://github.com/user-attachments/assets/2d22ee3e-ef39-4595-9190-b812ae0820c3" />
+<img width="773" height="864" alt="image" src="https://github.com/user-attachments/assets/15b0ef1a-bbd4-4e04-92f2-74e6c78cb007" />
+<img width="954" height="860" alt="image" src="https://github.com/user-attachments/assets/2499de43-fcbf-43df-af36-5dda3386a32f" />
+<img width="695" height="835" alt="image" src="https://github.com/user-attachments/assets/d5b25dee-ebac-4dce-9cc4-ca03fea5e7a1" />
+<img width="640" height="926" alt="image" src="https://github.com/user-attachments/assets/b9789f7b-5ff8-42c2-a812-2e9d9159c7a5" />
+<img width="725" height="890" alt="image" src="https://github.com/user-attachments/assets/bbc2685e-af4f-4db7-bcad-f9a1dfcf9f94" />
+<img width="774" height="882" alt="image" src="https://github.com/user-attachments/assets/a4100b93-e469-49fb-b18a-c00b91bfba62" />
+<img width="760" height="923" alt="image" src="https://github.com/user-attachments/assets/cfbf87bc-91d7-4568-af92-0dfa4b6d1a94" />
+<img width="818" height="876" alt="image" src="https://github.com/user-attachments/assets/b71202e8-0038-4922-9cc9-509fa1d1fe2b" />
+<img width="719" height="921" alt="image" src="https://github.com/user-attachments/assets/40ff3902-f34a-4098-ab12-ed77c66954d4" />
+<img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/8a2df78e-281c-493f-91c4-b91d39316c2f" />
+
 
 
 # Referencing 
