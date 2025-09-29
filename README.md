@@ -12,6 +12,10 @@
 ### Project Goal: 
 To design and develop a comprehensive, user-friendly e-commerce website for Exclusive Books, providing a seamless online shopping experience for book lovers. The website will serve as a digital extension of the physical stores, showcasing the company's vast book collection, services, and community-focused initiatives.
 
+ # Part 1 details
+ Part one is asked to create a website could use an existing website for help and as an example or make up a whole website. There was asked to create 2 proposals for 2 diffrent websites and see whihc one was best to start coding with. The was research involed in theproposal and through out the project to get an understanding of howto code the website and information to use towards to website. HTML was used in the first part to creat the website. 
+
+
 ### History of the website 
 Exclusive books is a well-known chain of bookstores in South Africa, that offers a large assortment of books, stationery, and other goods both online and in-store. They aim to promote a culture of reading through their retail stores, loyalty programs, and community initiatives.
 
@@ -127,24 +131,6 @@ week 9 to 13
 - Add SEO tags (title, alt text, descriptive page titles).
 - Embed maps, videos, or other external tools
 
-  ---
- # Part 1 details
- Part one is asked to create a website could use an existing website for help and as an example or make up a whole website. There was asked to create 2 proposals for 2 diffrent websites and see whihc one was best to start coding with. The was research involed in theproposal and through out the project to get an understanding of howto code the website and information to use towards to website. HTML was used in the first part to creat the website. 
-
----
-# Part 2 Details
-Part 2 of the project focused on bringing the website to life with visual design and styling. The primary goal was to apply CSS to transform the basic HTML structure from Part 1 into a visually appealing, professional, and user-friendly website. Key tasks included defining a consistent color scheme, selecting and applying fonts, and creating layouts for all pages. A major emphasis was placed on responsive design to ensure the website functions and looks great on all devices, including desktops, tablets, and mobile phones. This phase also involved refining the user experience by improving navigation and readability.
-
----
-# Changes from Part 1 to Part 2
-Several key improvements were made to transition the project from its foundational HTML structure to a styled and functional website:
-
-- **CSS Styling:** A comprehensive `style.css` file was created to manage all visual aspects, including colors, fonts, spacing, and layout. This replaced the unstyled HTML from Part 1.
-- **Responsive Design:** Media queries were implemented to ensure the layout adapts to different screen sizes, providing a seamless experience on mobile, tablet, and desktop.
-- **Structural HTML Improvements:** The HTML across all pages was refined for better compatibility with CSS. This included removing unnecessary tags like `<hr>` and `<br>`, adding a consistent `<main>` tag on every page, and improving the navigation structure.
-- **New Pages:** A **Login** and **Signup** page were added to build out the user account functionality.
-- **Descriptive Comments:** Comments were added to both the HTML and CSS files to explain the purpose of different code sections, improving code readability and maintainability.
-- **Layout Consistency:** Corrected structural HTML and refined CSS rules to ensure a consistent layout and spacing across all pages, resolving issues where the homepage appeared different from other pages.
 
 ---
 # Sitemap
@@ -186,36 +172,61 @@ Several key improvements were made to transition the project from its foundation
 - Doing the README file
 - - Part 1: Building the Foundation (Due 27 August 2025)
 
+
 ### PART 2
+#### (08/09/2025)
+- Feedback was sent to me from the lecture explaining where i lost marks and the need to improve in part 2.
 
 #### (25/09/2025)
-- looked at Part 1 assigment, and noted chnages i needed to make from my lecture and what to improve or add on
+- looked at Part 1 assigment, and noted changes i needed to make from my lecture and what to improve or add on.
+- Also noted needed to add more screen/pageres as well
 
 ##### (26/09/2025)
 - Replaced mistakes I made and corrected it
-- Added the missing folderes
-- Made the commits more discriptive
-- Add the <main></main> tags on every page
+- Added the missing folderes whihc were in css- style.css and java- script.js
+- Made the commits more discriptive in the html to explain the code and function for it being there.
+- Add the <main></main> tags on every page.
 
 #### (27/09/2025)
 - Added a Login page which shows a link for the cutomser that are not login to take them to a sign up page.
+- Added to code to both of thoes pagese and linked it to the other screen/pageres to navigate thought the pageres smoothly.
 
 #### (28/09/2025)
 - Finshed the Login and sign up page and commited it
-- -Had to change some html code for all the pageres so that it goes with the css code smothly. changed the nav and improved it. brought up the catergories up so the user can see it, took <hr> and <br> out since i dont need it. added more commits. and improved a few code mistakes.
-- Did the css code in the style.css for all the pages. took catergoires.css out because it would clash and easier to do all together.
+- Had to change some html code for all the pageres so that it goes with the css code smothly. changed the nav and improved it. brought up the catergories up so the user can see it, took <hr> and <br> out since i dont need it. added more commits. and improved a few code mistakes.
+- Did the css code in the style.css for all the pages. took catergoires.css out and put it above  because it would clash and easier to do all together.
+-  Created a comprehensive `style.css` file to manage all visual aspects, including colors, fonts, spacing, and layout.
+-  -Implemented media queries to ensure the layout adapts to different screen sizes for a seamless experience on mobile, tablet, and desktop.
+-   Refined HTML across all pages for better CSS compatibility, removing unnecessary tags and improving navigation.
 - added discriptive comments to explane code.
 
-#### (29/09/2025)
-- Refined the CSS to fix a major layout inconsistency, ensuring all pages have the same vertical spacing for a more professional and uniform appearance.
-- Updated the README file to include details for Part 2 and a comprehensive changelog.
-
-#### (30/09/2025) - Part 2 Summary of Changes
-- **CSS Styling:** Created a comprehensive `style.css` file to manage all visual aspects, including colors, fonts, spacing, and layout.
-- **Responsive Design:** Implemented media queries to ensure the layout adapts to different screen sizes for a seamless experience on mobile, tablet, and desktop.
-- **Structural HTML Improvements:** Refined HTML across all pages for better CSS compatibility, removing unnecessary tags and improving navigation.
-- **New Pages:** Added **Login** and **Signup** pages to build out user account functionality.
 ---
+
+# Part 2 Details 
+Part 2 of the project focused on bringing the website to life with visual design and styling. The primary goal was to apply CSS to transform the basic HTML structure from Part 1 into a visually appealing, professional, and user-friendly website. Key tasks included defining a consistent color scheme, selecting and applying fonts, and creating layouts for all pages. A major emphasis was placed on responsive design to ensure the website functions and looks great on all devices, including desktops, tablets, and mobile phones. This phase also involved refining the user experience by improving navigation and readability.
+
+ #### Design and user experience:
+•	Colour scheme: Blue, Gold. Red, Green, Ivory and white
+
+•	Typography: 
+1.	Headings-Pridi/ Oxygen Mono
+2.	Body- Oxygen Mono 
+3.	Hierarchy- H1 Headings / H2 Section titles/ H3 Sub-sections- helps user quickly scan and understand content.  
+
+•	Layout: Clean sections with bold action buttons, images, Main banners, header, navigation bar and text
+
+# Changes from Part 1 to Part 2
+Several key improvements were made to transition the project from its foundational HTML structure to a styled and functional website:
+- **Feedback from part 1 from things i was missing was fixed and improved.
+- **CSS Styling:** A comprehensive `style.css` file was created to manage all visual aspects, including colors, fonts, spacing, and layout. This replaced the unstyled HTML from Part 1.
+- **Responsive Design:** Media queries were implemented to ensure the layout adapts to different screen sizes, providing a seamless experience on mobile, tablet, and desktop.
+- **Structural HTML Improvements:** The HTML across all pages was refined for better compatibility with CSS. This included removing unnecessary tags like `<hr>` and `<br>`, adding a consistent `<main>` tag on every page, and improving the navigation structure.
+- **New Pages:** A **Login** and **Signup** page were added to build out the user account functionality.
+- **Descriptive Comments:** Comments were added to both the HTML and CSS files to explain the purpose of different code sections, improving code readability and maintainability.
+
+# screenshot of the css code
+
+
 # Referencing 
 - Alamy. (n.d.). Conceptual hand writing showing workshop agenda concept. Available at: <https://www.alamy.com/conceptual-hand-writing-showing-workshop-agenda-concept-meaning-helps-you-to-ensure-that-your-workshop-stays-on-schedule-image343420021.html>  [Accessed 22 August 2025]
 - Awesomebooks, 2002. Awesomebook. Summer island. [online] Available at: <Summer Island | Kristin Hannah | 9780553813968 | Awesome Books> [Accessed 22 August 2025]
