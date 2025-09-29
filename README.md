@@ -256,14 +256,12 @@ Several key improvements were made to transition the project from its foundation
 <img width="529" height="672" alt="image" src="https://github.com/user-attachments/assets/f4666a69-7b5a-421d-bf21-40e27282f7ee" />
 
 ### Home page- moblie 
-<img width="390" height="853" alt="image" src="https://github.com/user-attachments/assets/fa8da82f-0b97-4d9e-b59b-dda643b2790a" />
-
----
-<img width="393" height="848" alt="image" src="https://github.com/user-attachments/assets/c249b9ad-2a41-44bf-ac20-784ab3a77a39" />
-<img width="382" height="792" alt="image" src="https://github.com/user-attachments/assets/14c9a9ce-3f6e-4fda-80e0-3d2322d126a8" />
-<img width="388" height="828" alt="image" src="https://github.com/user-attachments/assets/b36b47b3-2013-4d8d-9052-ab63739c9a8b" />
-<img width="396" height="841" alt="image" src="https://github.com/user-attachments/assets/2c585b1d-07c6-4f39-9737-3142cca0ed62" />
-<img width="400" height="180" alt="image" src="https://github.com/user-attachments/assets/a4f61b75-c4e9-4796-a997-217c52d028ad" />
+<img width="768" height="860" alt="image" src="https://github.com/user-attachments/assets/ab11dde7-6a02-4d18-9108-c4bac9f71f5b" />
+<img width="754" height="857" alt="image" src="https://github.com/user-attachments/assets/133c4503-7681-471e-8afb-38feffe01666" />
+<img width="691" height="791" alt="image" src="https://github.com/user-attachments/assets/f9fc636c-f5be-4e04-af43-f879f0c94b82" />
+<img width="787" height="822" alt="image" src="https://github.com/user-attachments/assets/1bd74c78-95a2-42ee-b0ed-d03bc419076a" />
+<img width="686" height="852" alt="image" src="https://github.com/user-attachments/assets/4ef45e33-c27e-445c-98da-4c31d78ccfee" />
+<img width="677" height="182" alt="image" src="https://github.com/user-attachments/assets/9427d5f2-9185-4256-b6e5-292ec44963ef" />
 
 ---
 
