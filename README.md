@@ -193,7 +193,7 @@ week 9 to 13
 
 #### (28/09/2025)
 - Finshed the Login and sign up page and commited it
-- Had to change some html code for all the pageres so that it goes with the css code smothly. changed the nav and improved it. brought up the catergories up so the user can see it, took <hr> and <br> out since i dont need it. added more commits. and improved a few code mistakes.
+- Had to change some html code for all the pageres so that it goes with the css code smothly. changed the nav and improved it. brought up the catergories up so the user can see it, took <hr> and <br> out since i dont need it. added more commits and improved a few code mistakes.
 - Did the css code in the style.css for all the pages. took catergoires.css out and put it above  because it would clash and easier to do all together.
 - Created a comprehensive `style.css` file to manage all visual aspects, including colors, fonts, spacing, and layout.
 - Implemented media queries to ensure the layout adapts to different screen sizes for a seamless experience on mobile, tablet, and desktop.
