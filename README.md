@@ -246,11 +246,24 @@ Several key improvements were made to transition the project from its foundation
 <img width="719" height="921" alt="image" src="https://github.com/user-attachments/assets/40ff3902-f34a-4098-ab12-ed77c66954d4" />
 <img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/8a2df78e-281c-493f-91c4-b91d39316c2f" />
 
-## how the website looks
-### Home page 
+## how it looks on different deviceses
+### Home page -website 
 <img width="1894" height="951" alt="image" src="https://github.com/user-attachments/assets/038474a7-5488-4f39-b1cf-386c158a73db" />
 <img width="1909" height="678" alt="image" src="https://github.com/user-attachments/assets/83a49051-3136-4bbe-a9ad-edc532548360" />
 
+### Home page- tablet 
+<img width="520" height="688" alt="image" src="https://github.com/user-attachments/assets/05202421-266b-4517-b3d2-64840c4bdb9e" />
+<img width="529" height="672" alt="image" src="https://github.com/user-attachments/assets/f4666a69-7b5a-421d-bf21-40e27282f7ee" />
+
+### Home page- moblie 
+<img width="390" height="853" alt="image" src="https://github.com/user-attachments/assets/fa8da82f-0b97-4d9e-b59b-dda643b2790a" />
+<img width="393" height="848" alt="image" src="https://github.com/user-attachments/assets/c249b9ad-2a41-44bf-ac20-784ab3a77a39" />
+<img width="382" height="792" alt="image" src="https://github.com/user-attachments/assets/14c9a9ce-3f6e-4fda-80e0-3d2322d126a8" />
+<img width="388" height="828" alt="image" src="https://github.com/user-attachments/assets/b36b47b3-2013-4d8d-9052-ab63739c9a8b" />
+<img width="396" height="841" alt="image" src="https://github.com/user-attachments/assets/2c585b1d-07c6-4f39-9737-3142cca0ed62" />
+<img width="400" height="180" alt="image" src="https://github.com/user-attachments/assets/a4f61b75-c4e9-4796-a997-217c52d028ad" />
+
+---
 
 # Referencing 
 - Alamy. (n.d.). Conceptual hand writing showing workshop agenda concept. Available at: <https://www.alamy.com/conceptual-hand-writing-showing-workshop-agenda-concept-meaning-helps-you-to-ensure-that-your-workshop-stays-on-schedule-image343420021.html>  [Accessed 22 August 2025]
