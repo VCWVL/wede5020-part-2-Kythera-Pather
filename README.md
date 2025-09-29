@@ -251,50 +251,72 @@ Several key improvements were made to transition the project from its foundation
 <img width="1894" height="951" alt="image" src="https://github.com/user-attachments/assets/038474a7-5488-4f39-b1cf-386c158a73db" />
 <img width="1909" height="678" alt="image" src="https://github.com/user-attachments/assets/83a49051-3136-4bbe-a9ad-edc532548360" />
 
+---
+
 ### Event page
 <img width="1902" height="954" alt="image" src="https://github.com/user-attachments/assets/59d7da85-0fe7-44bd-880b-6fc9cca3f7ee" />
 <img width="1899" height="943" alt="image" src="https://github.com/user-attachments/assets/9d1a6036-a062-4faf-b99c-fe98f4a72dd2" />
 <img width="1895" height="943" alt="image" src="https://github.com/user-attachments/assets/e5ad82fd-409a-4780-b0f0-4256697b5963" />
 <img width="1903" height="783" alt="image" src="https://github.com/user-attachments/assets/cc2d7d04-98da-421a-a81a-d6b7d6410e63" />
 
+---
+
 ### Store page
 <img width="1901" height="962" alt="image" src="https://github.com/user-attachments/assets/8c566fb3-753c-449f-b7fb-412b8bb669de" />
 <img width="1901" height="951" alt="image" src="https://github.com/user-attachments/assets/dd2f9179-7e8f-4e34-99f3-8c057d075184" />
 <img width="1904" height="474" alt="image" src="https://github.com/user-attachments/assets/6588278f-8918-46d7-b90e-4d1f6ef231c8" />
 
+---
+
 ### About us page
 <img width="1896" height="950" alt="image" src="https://github.com/user-attachments/assets/2fe2d8a9-1e01-4df2-a17c-5776e202a2e8" />
 <img width="1896" height="663" alt="image" src="https://github.com/user-attachments/assets/1ff2a4e4-10e7-4571-abcb-c353c96cbc5a" />
+
+---
 
 ### Contact page
 <img width="1896" height="950" alt="image" src="https://github.com/user-attachments/assets/5fa66aed-6c7d-4fd3-a621-644640416d85" />
 <img width="1896" height="888" alt="image" src="https://github.com/user-attachments/assets/3c790732-845c-4593-a1cf-662e5a316eec" />
 <img width="1896" height="414" alt="image" src="https://github.com/user-attachments/assets/f1707e2a-0c77-4f41-9049-509792ff5082" />
 
+---
+
 ### Service Page 
 <img width="1901" height="954" alt="image" src="https://github.com/user-attachments/assets/27a412d6-e6fc-4516-8f77-850f0532fd99" />
 <img width="1899" height="946" alt="image" src="https://github.com/user-attachments/assets/54f52b33-2176-4655-b882-744ae22df0ec" />
 <img width="1900" height="142" alt="image" src="https://github.com/user-attachments/assets/28309989-932b-4fc8-9644-a9131d7b3ecc" />
 
+---
+
 ### Enquiry page 
 <img width="1895" height="927" alt="image" src="https://github.com/user-attachments/assets/6664dfb5-5c07-4500-8409-037bcfffa20a" />
 <img width="1900" height="667" alt="image" src="https://github.com/user-attachments/assets/d8759bb8-6f97-4e96-a139-2ce2bed94d5a" />
+
+---
 
 ### Cart page
 <img width="1909" height="945" alt="image" src="https://github.com/user-attachments/assets/da9c82c7-cb9b-4452-a160-f30147b7842b" />
 <img width="1897" height="126" alt="image" src="https://github.com/user-attachments/assets/d1380f2e-bc21-40cf-a7a2-a973abda2f7c" />
 
+---
+
 ### Login page 
 <img width="1903" height="959" alt="image" src="https://github.com/user-attachments/assets/369c4acc-f6dd-42fc-8742-476fdf6dfb99" />
 <img width="1902" height="148" alt="image" src="https://github.com/user-attachments/assets/ef9736a4-b944-40ff-a9be-8fdcb9b06bb5" />
+
+---
 
 ### Singup page 
 <img width="1900" height="954" alt="image" src="https://github.com/user-attachments/assets/673807cf-af61-49ba-8724-c633b7d4d0c6" />
 <img width="1897" height="126" alt="image" src="https://github.com/user-attachments/assets/8db00db4-be35-4803-9f66-eec4db893067" />
 
+---
+
 ### Fiction page 
 <img width="1890" height="955" alt="image" src="https://github.com/user-attachments/assets/a802c046-7336-4d8d-a5f5-d893b5a44fc2" />
 <img width="1904" height="809" alt="image" src="https://github.com/user-attachments/assets/c20900a5-1b2a-4e68-a335-f11853c73d0d" />
+
+---
 
 ### Non-fiction page
 <img width="1898" height="946" alt="image" src="https://github.com/user-attachments/assets/7914a6ca-44b4-4b10-bfcd-6e5f94fcbbe3" />
@@ -308,13 +330,19 @@ Several key improvements were made to transition the project from its foundation
 <img width="1899" height="953" alt="image" src="https://github.com/user-attachments/assets/cbcf9475-1b76-443f-9f94-3fd07de2ec44" />
 <img width="1905" height="857" alt="image" src="https://github.com/user-attachments/assets/459da4da-e0d3-47e2-b19c-578c8aaad569" />
 
+---
+
 ### BookTok page
 <img width="1895" height="954" alt="image" src="https://github.com/user-attachments/assets/f4f21c9f-0998-43b9-846e-9372c12f8a65" />
 <img width="1897" height="863" alt="image" src="https://github.com/user-attachments/assets/fa30ba41-7478-49ab-94b6-60f2cb5fa219" />
 
+---
+
 ### Religion
 <img width="1891" height="955" alt="image" src="https://github.com/user-attachments/assets/6f2fb936-60cf-468c-804c-662d055fc3e9" />
 <img width="1900" height="841" alt="image" src="https://github.com/user-attachments/assets/127aa1e7-8c25-4550-b84c-ca4480708b8e" />
+
+---
 
 ### Biography
 <img width="1897" height="959" alt="image" src="https://github.com/user-attachments/assets/41e0a3d2-d6e6-4f59-b6a5-e9be8666a77a" />
