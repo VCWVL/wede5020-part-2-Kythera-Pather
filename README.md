@@ -257,6 +257,8 @@ Several key improvements were made to transition the project from its foundation
 
 ### Home page- moblie 
 <img width="390" height="853" alt="image" src="https://github.com/user-attachments/assets/fa8da82f-0b97-4d9e-b59b-dda643b2790a" />
+
+---
 <img width="393" height="848" alt="image" src="https://github.com/user-attachments/assets/c249b9ad-2a41-44bf-ac20-784ab3a77a39" />
 <img width="382" height="792" alt="image" src="https://github.com/user-attachments/assets/14c9a9ce-3f6e-4fda-80e0-3d2322d126a8" />
 <img width="388" height="828" alt="image" src="https://github.com/user-attachments/assets/b36b47b3-2013-4d8d-9052-ab63739c9a8b" />
