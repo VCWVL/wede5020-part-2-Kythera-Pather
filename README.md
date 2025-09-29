@@ -132,6 +132,21 @@ week 9 to 13
  Part one is asked to create a website could use an existing website for help and as an example or make up a whole website. There was asked to create 2 proposals for 2 diffrent websites and see whihc one was best to start coding with. The was research involed in theproposal and through out the project to get an understanding of howto code the website and information to use towards to website. HTML was used in the first part to creat the website. 
 
 ---
+# Part 2 Details
+Part 2 of the project focused on bringing the website to life with visual design and styling. The primary goal was to apply CSS to transform the basic HTML structure from Part 1 into a visually appealing, professional, and user-friendly website. Key tasks included defining a consistent color scheme, selecting and applying fonts, and creating layouts for all pages. A major emphasis was placed on responsive design to ensure the website functions and looks great on all devices, including desktops, tablets, and mobile phones. This phase also involved refining the user experience by improving navigation and readability.
+
+---
+# Changes from Part 1 to Part 2
+Several key improvements were made to transition the project from its foundational HTML structure to a styled and functional website:
+
+- **CSS Styling:** A comprehensive `style.css` file was created to manage all visual aspects, including colors, fonts, spacing, and layout. This replaced the unstyled HTML from Part 1.
+- **Responsive Design:** Media queries were implemented to ensure the layout adapts to different screen sizes, providing a seamless experience on mobile, tablet, and desktop.
+- **Structural HTML Improvements:** The HTML across all pages was refined for better compatibility with CSS. This included removing unnecessary tags like `<hr>` and `<br>`, adding a consistent `<main>` tag on every page, and improving the navigation structure.
+- **New Pages:** A **Login** and **Signup** page were added to build out the user account functionality.
+- **Descriptive Comments:** Comments were added to both the HTML and CSS files to explain the purpose of different code sections, improving code readability and maintainability.
+- **Layout Consistency:** Corrected structural HTML and refined CSS rules to ensure a consistent layout and spacing across all pages, resolving issues where the homepage appeared different from other pages.
+
+---
 # Sitemap
 (The pager are at the top and bottom because it doesnt fit in one image)
 
@@ -190,7 +205,16 @@ week 9 to 13
 - -Had to change some html code for all the pageres so that it goes with the css code smothly. changed the nav and improved it. brought up the catergories up so the user can see it, took <hr> and <br> out since i dont need it. added more commits. and improved a few code mistakes.
 - Did the css code in the style.css for all the pages. took catergoires.css out because it would clash and easier to do all together.
 - added discriptive comments to explane code.
-- 
+
+#### (29/09/2025)
+- Refined the CSS to fix a major layout inconsistency, ensuring all pages have the same vertical spacing for a more professional and uniform appearance.
+- Updated the README file to include details for Part 2 and a comprehensive changelog.
+
+#### (30/09/2025) - Part 2 Summary of Changes
+- **CSS Styling:** Created a comprehensive `style.css` file to manage all visual aspects, including colors, fonts, spacing, and layout.
+- **Responsive Design:** Implemented media queries to ensure the layout adapts to different screen sizes for a seamless experience on mobile, tablet, and desktop.
+- **Structural HTML Improvements:** Refined HTML across all pages for better CSS compatibility, removing unnecessary tags and improving navigation.
+- **New Pages:** Added **Login** and **Signup** pages to build out user account functionality.
 ---
 # Referencing 
 - Alamy. (n.d.). Conceptual hand writing showing workshop agenda concept. Available at: <https://www.alamy.com/conceptual-hand-writing-showing-workshop-agenda-concept-meaning-helps-you-to-ensure-that-your-workshop-stays-on-schedule-image343420021.html>  [Accessed 22 August 2025]
