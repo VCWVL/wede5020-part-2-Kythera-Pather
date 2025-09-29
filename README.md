@@ -246,6 +246,82 @@ Several key improvements were made to transition the project from its foundation
 <img width="719" height="921" alt="image" src="https://github.com/user-attachments/assets/40ff3902-f34a-4098-ab12-ed77c66954d4" />
 <img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/8a2df78e-281c-493f-91c4-b91d39316c2f" />
 
+## How the website looks
+### Home page 
+<img width="1894" height="951" alt="image" src="https://github.com/user-attachments/assets/038474a7-5488-4f39-b1cf-386c158a73db" />
+<img width="1909" height="678" alt="image" src="https://github.com/user-attachments/assets/83a49051-3136-4bbe-a9ad-edc532548360" />
+
+### Event page
+<img width="1902" height="954" alt="image" src="https://github.com/user-attachments/assets/59d7da85-0fe7-44bd-880b-6fc9cca3f7ee" />
+<img width="1899" height="943" alt="image" src="https://github.com/user-attachments/assets/9d1a6036-a062-4faf-b99c-fe98f4a72dd2" />
+<img width="1895" height="943" alt="image" src="https://github.com/user-attachments/assets/e5ad82fd-409a-4780-b0f0-4256697b5963" />
+<img width="1903" height="783" alt="image" src="https://github.com/user-attachments/assets/cc2d7d04-98da-421a-a81a-d6b7d6410e63" />
+
+### Store page
+<img width="1901" height="962" alt="image" src="https://github.com/user-attachments/assets/8c566fb3-753c-449f-b7fb-412b8bb669de" />
+<img width="1901" height="951" alt="image" src="https://github.com/user-attachments/assets/dd2f9179-7e8f-4e34-99f3-8c057d075184" />
+<img width="1904" height="474" alt="image" src="https://github.com/user-attachments/assets/6588278f-8918-46d7-b90e-4d1f6ef231c8" />
+
+### About us page
+<img width="1896" height="950" alt="image" src="https://github.com/user-attachments/assets/2fe2d8a9-1e01-4df2-a17c-5776e202a2e8" />
+<img width="1896" height="663" alt="image" src="https://github.com/user-attachments/assets/1ff2a4e4-10e7-4571-abcb-c353c96cbc5a" />
+
+### Contact page
+<img width="1896" height="950" alt="image" src="https://github.com/user-attachments/assets/5fa66aed-6c7d-4fd3-a621-644640416d85" />
+<img width="1896" height="888" alt="image" src="https://github.com/user-attachments/assets/3c790732-845c-4593-a1cf-662e5a316eec" />
+<img width="1896" height="414" alt="image" src="https://github.com/user-attachments/assets/f1707e2a-0c77-4f41-9049-509792ff5082" />
+
+### Service Page 
+<img width="1901" height="954" alt="image" src="https://github.com/user-attachments/assets/27a412d6-e6fc-4516-8f77-850f0532fd99" />
+<img width="1899" height="946" alt="image" src="https://github.com/user-attachments/assets/54f52b33-2176-4655-b882-744ae22df0ec" />
+<img width="1900" height="142" alt="image" src="https://github.com/user-attachments/assets/28309989-932b-4fc8-9644-a9131d7b3ecc" />
+
+### Enquiry page 
+<img width="1895" height="927" alt="image" src="https://github.com/user-attachments/assets/6664dfb5-5c07-4500-8409-037bcfffa20a" />
+<img width="1900" height="667" alt="image" src="https://github.com/user-attachments/assets/d8759bb8-6f97-4e96-a139-2ce2bed94d5a" />
+
+### Cart page
+<img width="1909" height="945" alt="image" src="https://github.com/user-attachments/assets/da9c82c7-cb9b-4452-a160-f30147b7842b" />
+<img width="1897" height="126" alt="image" src="https://github.com/user-attachments/assets/d1380f2e-bc21-40cf-a7a2-a973abda2f7c" />
+
+### Login page 
+<img width="1903" height="959" alt="image" src="https://github.com/user-attachments/assets/369c4acc-f6dd-42fc-8742-476fdf6dfb99" />
+<img width="1902" height="148" alt="image" src="https://github.com/user-attachments/assets/ef9736a4-b944-40ff-a9be-8fdcb9b06bb5" />
+
+### Singup page 
+<img width="1900" height="954" alt="image" src="https://github.com/user-attachments/assets/673807cf-af61-49ba-8724-c633b7d4d0c6" />
+<img width="1897" height="126" alt="image" src="https://github.com/user-attachments/assets/8db00db4-be35-4803-9f66-eec4db893067" />
+
+### Fiction page 
+<img width="1890" height="955" alt="image" src="https://github.com/user-attachments/assets/a802c046-7336-4d8d-a5f5-d893b5a44fc2" />
+<img width="1904" height="809" alt="image" src="https://github.com/user-attachments/assets/c20900a5-1b2a-4e68-a335-f11853c73d0d" />
+
+### Non-fiction page
+<img width="1898" height="946" alt="image" src="https://github.com/user-attachments/assets/7914a6ca-44b4-4b10-bfcd-6e5f94fcbbe3" />
+<img width="1896" height="921" alt="image" src="https://github.com/user-attachments/assets/48007a36-092d-421f-8139-21fe00725e5a" />
+
+### Children page 
+<img width="1899" height="954" alt="image" src="https://github.com/user-attachments/assets/0bd8fc31-3480-417a-b218-880b836bad78" />
+<img width="1899" height="932" alt="image" src="https://github.com/user-attachments/assets/15fe62be-248c-4165-9c36-fb78dc3f2df2" />
+
+### Autobiographies page
+<img width="1899" height="953" alt="image" src="https://github.com/user-attachments/assets/cbcf9475-1b76-443f-9f94-3fd07de2ec44" />
+<img width="1905" height="857" alt="image" src="https://github.com/user-attachments/assets/459da4da-e0d3-47e2-b19c-578c8aaad569" />
+
+### BookTok page
+<img width="1895" height="954" alt="image" src="https://github.com/user-attachments/assets/f4f21c9f-0998-43b9-846e-9372c12f8a65" />
+<img width="1897" height="863" alt="image" src="https://github.com/user-attachments/assets/fa30ba41-7478-49ab-94b6-60f2cb5fa219" />
+
+### Religion
+<img width="1891" height="955" alt="image" src="https://github.com/user-attachments/assets/6f2fb936-60cf-468c-804c-662d055fc3e9" />
+<img width="1900" height="841" alt="image" src="https://github.com/user-attachments/assets/127aa1e7-8c25-4550-b84c-ca4480708b8e" />
+
+### Biography
+<img width="1897" height="959" alt="image" src="https://github.com/user-attachments/assets/41e0a3d2-d6e6-4f59-b6a5-e9be8666a77a" />
+<img width="1902" height="846" alt="image" src="https://github.com/user-attachments/assets/b66b13bc-741e-4540-996a-6264817a6daf" />
+
+---
+
 ## how it looks on different deviceses
 ### Home page -website 
 <img width="1894" height="951" alt="image" src="https://github.com/user-attachments/assets/038474a7-5488-4f39-b1cf-386c158a73db" />
@@ -316,35 +392,35 @@ Several key improvements were made to transition the project from its foundation
 - W3Schools, 2025. HTML Tables. [online] Available at: <https://www.w3schools.com/html/html_tables.asp> [Accessed 20 August 2025]
 
 # Referencing Part 2
--W3Schools, n.d. CSS Align. [online] Available at: <https://www.w3schools.com/css/css_align.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Box Model. [online] Available at: <https://www.w3schools.com/css/css_boxmodel.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Colors. [online] Available at: <https://www.w3schools.com/css/css_colors.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Colors HEX. [online] Available at: <https://www.w3schools.com/css/css_colors_hex.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Comments. [online] Available at: <https://www.w3schools.com/css/css_comments.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Dimension. [online] Available at: <https://www.w3schools.com/css/css_dimension.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Display/Visibility. [online] Available at: <https://www.w3schools.com/css/css_display_visibility.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Float. [online] Available at: <https://www.w3schools.com/css/css_float.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Font. [online] Available at: <https://www.w3schools.com/css/css_font.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS How To. [online] Available at: <https://www.w3schools.com/css/css_howto.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Icons. [online] Available at: <https://www.w3schools.com/css/css_icons.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Image Transparency. [online] Available at: <https://www.w3schools.com/css/css_image_transparency.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Link. [online] Available at: <https://www.w3schools.com/css/css_link.asp> [Accessed 27 September 2025].
--W3Schools, n.d. CSS List. [online] Available at: <https://www.w3schools.com/css/css_list.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Margin. [online] Available at: <https://www.w3schools.com/css/css_margin.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Navbar. [online] Available at: <https://www.w3schools.com/css/css_navbar.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Padding. [online] Available at: https://www.w3schools.com/css/css_padding.asp [Accessed 27 September 2025]
--W3Schools, n.d. CSS Positioning. [online] Available at: <https://www.w3schools.com/css/css_positioning.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Pseudo Classes. [online] Available at: <https://www.w3schools.com/css/css_pseudo_classes.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Pseudo Elements. [online] Available at: <https://www.w3schools.com/css/css_pseudo_elements.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Table. [online] Available at: <https://www.w3schools.com/css/css_table.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Text. [online] Available at: <https://www.w3schools.com/css/css_text.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Website Layout. [online] Available at: <https://www.w3schools.com/css/css_website_layout.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS3 Borders. [online] Available at: <https://www.w3schools.com/css/css3_borders.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS3 Buttons. [online] Available at: <https://www.w3schools.com/css/css3_buttons.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS3 Image Center. [online] Available at: <https://www.w3schools.com/css/css3_image_center.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS3 Images. [online] Available at: <https://www.w3schools.com/css/css3_images.asp> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Reference: Pseudo Classes. [online] Available at: <https://www.w3schools.com/cssref/css_ref_pseudo_classes.php> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Reference: Pseudo Elements. [online] Available at: <https://www.w3schools.com/cssref/css_ref_pseudo_elements.php> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Reference: font-family Property. [online] Available at: <https://www.w3schools.com/cssref/pr_font_font-family.php> [Accessed 27 September 2025]
--W3Schools, n.d. CSS Reference: grid Property. [online] Available at: <https://www.w3schools.com/cssref/pr_grid.php> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Align. [online] Available at: <https://www.w3schools.com/css/css_align.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Box Model. [online] Available at: <https://www.w3schools.com/css/css_boxmodel.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Colors. [online] Available at: <https://www.w3schools.com/css/css_colors.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Colors HEX. [online] Available at: <https://www.w3schools.com/css/css_colors_hex.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Comments. [online] Available at: <https://www.w3schools.com/css/css_comments.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Dimension. [online] Available at: <https://www.w3schools.com/css/css_dimension.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Display/Visibility. [online] Available at: <https://www.w3schools.com/css/css_display_visibility.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Float. [online] Available at: <https://www.w3schools.com/css/css_float.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Font. [online] Available at: <https://www.w3schools.com/css/css_font.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS How To. [online] Available at: <https://www.w3schools.com/css/css_howto.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Icons. [online] Available at: <https://www.w3schools.com/css/css_icons.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Image Transparency. [online] Available at: <https://www.w3schools.com/css/css_image_transparency.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Link. [online] Available at: <https://www.w3schools.com/css/css_link.asp> [Accessed 27 September 2025].
+- W3Schools, n.d. CSS List. [online] Available at: <https://www.w3schools.com/css/css_list.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Margin. [online] Available at: <https://www.w3schools.com/css/css_margin.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Navbar. [online] Available at: <https://www.w3schools.com/css/css_navbar.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Padding. [online] Available at: https://www.w3schools.com/css/css_padding.asp [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Positioning. [online] Available at: <https://www.w3schools.com/css/css_positioning.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Pseudo Classes. [online] Available at: <https://www.w3schools.com/css/css_pseudo_classes.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Pseudo Elements. [online] Available at: <https://www.w3schools.com/css/css_pseudo_elements.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Table. [online] Available at: <https://www.w3schools.com/css/css_table.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Text. [online] Available at: <https://www.w3schools.com/css/css_text.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Website Layout. [online] Available at: <https://www.w3schools.com/css/css_website_layout.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS3 Borders. [online] Available at: <https://www.w3schools.com/css/css3_borders.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS3 Buttons. [online] Available at: <https://www.w3schools.com/css/css3_buttons.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS3 Image Center. [online] Available at: <https://www.w3schools.com/css/css3_image_center.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS3 Images. [online] Available at: <https://www.w3schools.com/css/css3_images.asp> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Reference: Pseudo Classes. [online] Available at: <https://www.w3schools.com/cssref/css_ref_pseudo_classes.php> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Reference: Pseudo Elements. [online] Available at: <https://www.w3schools.com/cssref/css_ref_pseudo_elements.php> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Reference: font-family Property. [online] Available at: <https://www.w3schools.com/cssref/pr_font_font-family.php> [Accessed 27 September 2025]
+- W3Schools, n.d. CSS Reference: grid Property. [online] Available at: <https://www.w3schools.com/cssref/pr_grid.php> [Accessed 27 September 2025]
 
