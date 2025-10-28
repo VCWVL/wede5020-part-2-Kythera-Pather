@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Religion</title>
+    <meta name="description" content="Discover books on various religious beliefs, practices, and philosophies from our curated religion collection.">
+    <title>Religion Books | Spiritual & Philosophical Texts | Exclusive Books</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
             <h1>Exclusive Books</h1>
             <div class="search-bar">
                 <!--Allows the user to search up a book name-->
-                <input type="text" placeholder="Search for your books here...">
-                <button>Search</button>
+                <input type="text" id="header-search-input" placeholder="Search for your books here...">
+                <button id="header-search-button">Search</button>
             </div>
         </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
@@ -57,7 +58,7 @@
 
         <!--Category Banner-->
         <section class="page-banner">
-            <img src="_images/bookstore_banner.jpg" alt="Religion Books Banner">
+            <img src="_images/bookstore_banner.jpg" alt="A cozy bookstore aisle with warm lighting and rows of books">
             <div class="banner-text">
                 <h2>Explore Our Religion Collection</h2>
                 <p>Discover books on various religious beliefs, practices, and philosophies.</p>
@@ -67,8 +68,11 @@
         <!--Religion Section-->
         <section class="content-section">
             <h2>Popular Religion Books</h2>
+            <div class="filter-bar">
+                <input type="text" id="book-filter" placeholder="Filter books by title or author...">
+            </div>
             <div class="book-grid">
-                <div class="book-card">
+                <div class="book-card" data-title="Bhagavad Gita" data-author="Eknath Easwaran" data-price="200.00" data-image="_images/the_bhagvad_gita_religion.jpg">
                     <img src="_images/the_bhagvad_gita_religion.jpg" alt="Bhagavad Gita">
                     <div class="book-info">
                         <!--Code implements the books name-->
@@ -85,7 +89,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="Quran" data-author="Muhammad Asad" data-price="250.00" data-image="_images/quran_religion.jpg">
                     <img src="_images/quran_religion.jpg" alt="Quran">
                     <div class="book-info">
                         <h3>Quran</h3>
@@ -96,7 +100,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="The Bible" data-author="Various Authors" data-price="300.00" data-image="_images/the_bible_religion.jpg">
                     <img src="_images/the_bible_religion.jpg" alt="The Bible">
                     <div class="book-info">
                         <h3>The Bible</h3>
@@ -107,7 +111,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="Tao Te Ching" data-author="Lao Tzu" data-price="180.00" data-image="_images/tao_te_ching_religion.jpg">
                     <img src="_images/tao_te_ching_religion.jpg" alt="Tao Te Ching">
                     <div class="book-info">
                         <h3>Tao Te Ching</h3>
@@ -126,6 +130,8 @@
     <footer class="site-footer-main">
         <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>

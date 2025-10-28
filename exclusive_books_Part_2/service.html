@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <meta name="description" content="Discover the range of services we offer at Exclusive Books, including personalized recommendations, author events, reading clubs, and our loyalty program.">
+    <title>Our Services | Exclusive Books</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
             <h1>Exclusive Books</h1>
             <div class="search-bar">
                 <!--Allows the user to search up a book name-->
-                <input type="text" placeholder="Search for your books here...">
-                <button>Search</button>
+                <input type="text" id="header-search-input" placeholder="Search for your books here...">
+                <button id="header-search-button">Search</button>
             </div>
         </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
@@ -44,7 +45,7 @@
     <main>
     <!--Category Banner thats labled with what section it is-->
     <section class="page-banner">
-        <img src="_images/bookstore_banner_second.jpg" alt="Services Banner">
+        <img src="_images/bookstore_banner_second.jpg" alt="A well-lit, modern bookstore interior">
         <div class="banner-text">
             <h2>Our Services</h2>
             <p>Discover the range of services we offer to enhance your reading experience.</p>
@@ -59,7 +60,7 @@
         <ul class="service-list">
             <!--The code gives a list of services offered to the customer in bulletpoints style-->
             <li><strong>Book Recommendations:</strong> Personalized book suggestions based on your reading preferences.</li>
-            <li><strong>Author Events:</strong> Meet and greet sessions, book signings, and readings by popular authors.</li>
+            <li><strong><a href="events.html">Author Events</a>:</strong> Meet and greet sessions, book signings, and readings by popular authors.</li>
             <li><strong>Reading Clubs:</strong> Join our community reading clubs to discuss your favorite books with fellow readers.</li>
             <li><strong>Gift Wrapping:</strong> Complimentary gift wrapping services for all your book purchases.</li>
             <li><strong>Online Ordering:</strong> Convenient online shopping with home delivery options.</li>
@@ -93,5 +94,7 @@
     <footer class="site-footer-main">
         <p>&copy; 2024 Exclusive Books. All rights reserved.</p>    
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>children</title>
+    <meta name="description" content="Spark your child's imagination with our delightful collection of children's books, from picture books to young adult novels.">
+    <title>Children's Books | Kids' Stories & Adventures | Exclusive Books</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
             <h1>Exclusive Books</h1>
             <div class="search-bar">
                 <!--Allows the user to search up a book name-->
-                <input type="text" placeholder="Search for your books here...">
-                <button>Search</button>
+                <input type="text" id="header-search-input" placeholder="Search for your books here...">
+                <button id="header-search-button">Search</button>
             </div>
         </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
@@ -58,7 +59,7 @@
 
         <!--Category Banner thats labled with what section it is-->
         <section class="page-banner">
-            <img src="_images/bookstore_banner_second.jpg" alt="Children's Books Banner">
+            <img src="_images/bookstore_banner_second.jpg" alt="A well-lit, modern bookstore interior">
             <div class="banner-text">
                 <h2>Explore Our Children's Collection</h2>
                 <p>Delve into a world of imagination and adventure with our selection of children's books.</p>
@@ -68,8 +69,11 @@
         <!--Children's Section-->
         <section class="content-section">
             <h2>Popular Children's Books</h2>
+            <div class="filter-bar">
+                <input type="text" id="book-filter" placeholder="Filter books by title or author...">
+            </div>
             <div class="book-grid">
-                <div class="book-card">
+                <div class="book-card" data-title="Where the Wild Things Are" data-author="Maurice Sendak" data-price="150.00" data-image="_images/where_the_wild_things_are_children.jpg">
                     <img src="_images/where_the_wild_things_are_children.jpg" alt="Where the Wild Things Are">
                     <div class="book-info">
                         <!--Code implements the books name-->
@@ -86,7 +90,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="The Very Hungry Caterpillar" data-author="Eric Carle" data-price="120.00" data-image="_images/the_very_hungry_caterpilar_children.jpg">
                     <img src="_images/the_very_hungry_caterpilar_children.jpg" alt="The Very Hungry Caterpillar">
                     <div class="book-info">
                         <h3>The Very Hungry Caterpillar</h3>
@@ -97,7 +101,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="Goodnight Moon" data-author="Margaret Wise Brown" data-price="130.00" data-image="_images/goodnight_moon_children.jpg">
                     <img src="_images/goodnight_moon_children.jpg" alt="Goodnight Moon">
                     <div class="book-info">
                         <h3>Goodnight Moon</h3>
@@ -108,7 +112,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="Charlotte's Web" data-author="E.B. White" data-price="180.00" data-image="_images/charlotte's_web_children.jpg">
                     <img src="_images/charlotte's_web_children.jpg" alt="Charlotte's Web">
                     <div class="book-info">
                         <h3>Charlotte's Web</h3>
@@ -127,6 +131,8 @@
     <footer class="site-footer-main">
         <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiction</title>
+    <meta name="description" content="Explore a world of imagination with our curated selection of fiction books. Discover bestsellers, new releases, and timeless classics.">
+    <title>Fiction Books | Novels & Stories | Exclusive Books</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
             <h1>Exclusive Books</h1>
             <div class="search-bar">
                 <!--Allows the user to search up a book name-->
-                <input type="text" placeholder="Search for your books here...">
-                <button>Search</button>
+                <input type="text" id="header-search-input" placeholder="Search for your books here...">
+                <button id="header-search-button">Search</button>
             </div>
         </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
@@ -58,7 +59,7 @@
 
         <!--Category Banner-->
         <section class="page-banner">
-            <img src="_images/bookstore_banner_second.jpg" alt="Fiction Books Banner">
+            <img src="_images/bookstore_banner_second.jpg" alt="A well-lit, modern bookstore interior">
             <div class="banner-text">
                 <h2>Explore Our Fiction Collection</h2>
                 <p>Discover a world of imagination and storytelling with our curated selection of fiction books.</p>
@@ -68,8 +69,11 @@
         <!--Fiction Section-->
         <section class="content-section">
             <h2>Popular Fiction Books</h2>
+            <div class="filter-bar">
+                <input type="text" id="book-filter" placeholder="Filter books by title or author...">
+            </div>
             <div class="book-grid">
-                <div class="book-card">
+                <div class="book-card" data-title="The Great Gatsby" data-author="F. Scott Fitzgerald" data-price="250.00" data-image="_images/the_great_gatsby_fiction.jpg">
                     <img src="_images/the_great_gatsby_fiction.jpg" alt="The Great Gatsby">
                     <div class="book-info">
                         <!--Code implements the books name-->
@@ -86,7 +90,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="The lost bookshop" data-author="Evie Woods" data-price="360.00" data-image="_images/the_lost_bookshop_fiction.jpg">
                     <img src="_images/the_lost_bookshop_fiction.jpg" alt="The Lost Bookshop">
                     <div class="book-info">
                         <h3>The lost bookshop</h3>
@@ -97,7 +101,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="To Kill a Mockingbird" data-author="Harper Lee" data-price="280.00" data-image="_images/how_to_kill_a_mockingbird_fiction.jpg">
                     <img src="_images/how_to_kill_a_mockingbird_fiction.jpg" alt="To Kill a Mockingbird">
                     <div class="book-info">
                         <h3>To Kill a Mockingbird</h3>
@@ -108,7 +112,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="The Midnight Library" data-author="Matt Haig" data-price="300.00" data-image="_images/the_midnight_library_fiction.jpg">
                     <img src="_images/the_midnight_library_fiction.jpg" alt="The Midnight Library">
                     <div class="book-info">
                         <h3>The Midnight Library</h3>
@@ -128,5 +132,7 @@
         <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
     
+    <script src="js/main.js"></script>
+
 </body>
 </html>

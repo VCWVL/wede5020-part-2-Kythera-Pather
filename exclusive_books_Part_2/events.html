@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Events</title>
+  <meta name="description" content="Stay updated with the latest book events, author meet-and-greets, and writing workshops at Exclusive Books. Find an event near you.">
+  <title>Book Events & Author Signings | Exclusive Books</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
             <h1>Exclusive Books</h1>
             <div class="search-bar">
                 <!--Allows the user to search up a book name-->
-                <input type="text" placeholder="Search for your books here...">
-                <button>Search</button>
+                <input type="text" id="header-search-input" placeholder="Search for your books here...">
+                <button id="header-search-button">Search</button>
             </div>
         </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
@@ -44,7 +45,7 @@
     <main>
   <!--Category Banner thats labled with what section it is-->
   <section class="page-banner">
-    <img src="_images/bookstore_banner_second.jpg" alt="Events Banner">
+    <img src="_images/bookstore_banner_second.jpg" alt="A well-lit, modern bookstore interior">
     <div class="banner-text">
         <h2>Upcoming Events</h2>
         <p>Stay updated with our latest events, book signings, and author meet-and-greets.</p>
@@ -66,7 +67,7 @@
     <!--Join bookclubs at our stores-->
     <section class="content-section media-object">
         <h2>Join Our Book Clubs</h2>
-      <img src="_images/bookclub_event.jpg" alt="People at a book club meeting">
+      <img src="_images/bookclub_event.jpg" alt="A group of people sitting in a circle discussing books at a book club meeting">
       <!--The code gives information about the book clubs that the customer can join-->
       <p>Connect with fellow book lovers by joining one of our book clubs. Enjoy discussions, meet new friends, and explore new genres.</p>
       <p><strong>Days to join:</strong> 1st OF EVERY once a month.</p>
@@ -77,13 +78,16 @@
     <!-- Events List -->
     <section class="content-section">
       <h2>Upcoming Events</h2>
+      <div class="filter-bar">
+        <input type="text" id="event-filter" placeholder="Filter events by title or location...">
+      </div>
       <div class="events-grid">
         <div class="event-card">
             <img src="_images/book_signing_event.jpg" alt="Author Meet-and-Greet">
             <!--The code gives information about the events that are happening at Exclusive Books-->
             <div class="event-info">
                 <h3>Author Meet-and-Greet with Jane Doe</h3>
-                <p><strong>Date:</strong> July 15, 2024</p>
+                <p><strong>Date:</strong> July 15, 2025</p>
                 <p><strong>Time:</strong> 3:00 PM - 5:00 PM</p>
                 <p><strong>Location:</strong> Exclusive Books Main Store, Johannesburg</p>
                 <p>Join us for an exclusive meet-and-greet with bestselling author Jane Doe. Get your books signed and enjoy a Q&A session.</p>   
@@ -93,7 +97,7 @@
             <img src="_images/bluey_event.jpg" alt="Kids Event - Bluey">
             <div class="event-info">
                 <h3>Book event for kids- Bluey</h3>
-                <p><strong>Date:</strong> August 10, 2024</p>
+                <p><strong>Date:</strong> August 10, 2025</p>
                 <p><strong>Time:</strong> 10:00 AM - 12:00 PM</p>
                 <p><strong>Location:</strong> Exclusive Books Kids Section, Cape Town</p>
                 <p>A fun-filled event for kids featuring storytime, crafts, and activities centered around the beloved character Bluey.</p>
@@ -103,7 +107,7 @@
             <img src="_images/writing_workshop_event.jpg" alt="Writing Workshop">
             <div class="event-info">
                 <h3>Writing Workshop with John Smith</h3>
-                <p><strong>Date:</strong> September 5, 2024</p>
+                <p><strong>Date:</strong> September 5, 2025</p>
                 <p><strong>Time:</strong> 1:00 PM - 4:00 PM</p>
                 <p><strong>Location:</strong> Exclusive Books Conference Room, Durban</p>
                 <p>Enhance your writing skills with a hands-on workshop led by acclaimed author John Smith. Suitable for writers of all levels.</p>
@@ -113,7 +117,7 @@
             <img src="_images/poetry_event.jpg" alt="Poetry Reading Night">
             <div class="event-info">
                 <h3>Poetry Reading Night</h3>
-                <p><strong>Date:</strong> October 20, 2024</p>
+                <p><strong>Date:</strong> October 20, 2025</p>
                 <p><strong>Time:</strong> 6:00 PM - 8:00 PM</p>
                 <p><strong>Location:</strong> Exclusive Books Lounge, Pretoria</p>
                 <p>An evening of poetry readings by local poets. Enjoy a night of literary expression and community.</p>
@@ -127,5 +131,7 @@
     <footer class="site-footer-main">
         <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

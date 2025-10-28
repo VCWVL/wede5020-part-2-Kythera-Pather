@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>booktok</title>
+    <meta name="description" content="Discover the hottest books trending on BookTok. Shop viral sensations and find your next favorite read from our BookTok collection.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.exclusivebooks.co.za/booktok.html">
+    <meta property="og:title" content="BookTok Trending Books | Exclusive Books">
+    <meta property="og:description" content="Discover the hottest books trending on BookTok. Shop viral sensations and find your next favorite read from our BookTok collection.">
+    <meta property="og:image" content="https://www.exclusivebooks.co.za/_images/bookstore_banner_second.jpg">
+
+    <title>BookTok Trending Books | Exclusive Books</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +28,8 @@
             <h1>Exclusive Books</h1>
             <div class="search-bar">
                 <!--Allows the user to search up a book name-->
-                <input type="text" placeholder="Search for your books here...">
-                <button>Search</button>
+                <input type="text" id="header-search-input" placeholder="Search for your books here...">
+                <button id="header-search-button">Search</button>
             </div>
         </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
@@ -58,7 +66,7 @@
 
         <!--Category Banner-->
         <section class="page-banner">
-            <img src="_images/bookstore_banner_second.jpg" alt="BookTok Books Banner">
+            <img src="_images/bookstore_banner_second.jpg" alt="A well-lit, modern bookstore interior">
             <div class="banner-text">
                 <h2>Explore Our BookTok Collection</h2>
                 <p>Discover trending books that are taking BookTok by storm!</p>
@@ -69,8 +77,11 @@
         <!--BookTok Section-->
         <section class="content-section">
             <h2>Popular BookTok Books</h2>
+            <div class="filter-bar">
+                <input type="text" id="book-filter" placeholder="Filter books by title or author...">
+            </div>
             <div class="book-grid">
-                <div class="book-card">
+                <div class="book-card" data-title="Once Upon a Broken Heart" data-author="Stephanie Garber" data-price="320.00" data-image="_images/once_upon_a_broken_heart_booktok.jpg">
                     <img src="_images/once_upon_a_broken_heart_booktok.jpg" alt="Once Upon a Broken Heart">
                     <div class="book-info">
                         <!--Code implements the books name-->
@@ -87,7 +98,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="The Love Hypothesis" data-author="Ali Hazelwood" data-price="300.00" data-image="_images/the_love_hypothesis_booktok.jpg">
                     <img src="_images/the_love_hypothesis_booktok.jpg" alt="The Love Hypothesis">
                     <div class="book-info">
                         <h3>The Love Hypothesis</h3>
@@ -98,7 +109,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="Shatter Me" data-author="Tahereh Mafi" data-price="280.00" data-image="_images/shatter_me_booktok.jpg">
                     <img src="_images/shatter_me_booktok.jpg" alt="Shatter Me">
                     <div class="book-info">
                         <h3>Shatter Me</h3>
@@ -109,7 +120,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="The Cruel Prince" data-author="Holly Black" data-price="310.00" data-image="_images/the_cruel_prince_booktok.jpg">
                     <img src="_images/the_cruel_prince_booktok.jpg" alt="The Cruel Prince">
                     <div class="book-info">
                         <h3>The Cruel Prince</h3>
@@ -128,6 +139,8 @@
     <footer class="site-footer-main">
         <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>

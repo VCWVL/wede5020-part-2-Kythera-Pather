@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Login to your Exclusive Books account to manage your orders, wishlist, and enjoy a seamless shopping experience.">
-    <title>Login to Your Account | Exclusive Books</title>
-     <!-- Google Fonts -->
+    <meta name="description" content="Confirm your order details and complete your purchase securely at Exclusive Books.">
+    <title>Checkout | Confirm Your Order | Exclusive Books</title>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Pridi:wght@400;700&display=swap" rel="stylesheet">
@@ -15,17 +15,14 @@
 <body>
     <!--Header-->
     <header class="site-header">
-        <!--The code shows the logo image-->
         <a href="index.html" class="logo-link"><img src="_images/exclusive_book_logo.jpg" alt="Exclusive Books Logo" class="logo"></a>
         <div class="header-content">
             <h1>Exclusive Books</h1>
             <div class="search-bar">
-                <!--Allows the user to search up a book name-->
                 <input type="text" id="header-search-input" placeholder="Search for your books here...">
                 <button id="header-search-button">Search</button>
             </div>
         </div>
-        <!--Navigation to diffrent pagers in the website and are connected -->
         <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -43,29 +40,39 @@
     </header>
 
     <main>
-        <!--Category Banner thats labled with what section it is-->
+        <!--Category Banner-->
         <section class="page-banner">
             <img src="_images/bookstore_banner.jpg" alt="A cozy bookstore aisle with warm lighting and rows of books">
             <div class="banner-text">
-                <h2>Login</h2>
-                <p>Please login into your account to continue shopping.</p>
+                <h2>Proceed to Checkout</h2>
+                <p>Confirm your order details before completing your purchase.</p>
             </div>
         </section>
-        <section class="content-section form-section">
-            <!--The code creates a login form for the user to fill in-->
-                <h2>User Login</h2>
-                <!--The code allows the user enters their details into the form-->
-                <form action="process_login.html" method="POST" class="styled-form">
-                    <div class="form-group"><label for="username">Username:</label><input type="text" id="username" name="username" required></div>
-                    <div class="form-group"><label for="password">Password:</label><input type="password" id="password" name="password" required></div>
-                    <button type="submit" class="btn">Login</button>
-                </form>
-                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+
+        <section class="content-section">
+            <h2>Order Summary</h2>
+            <div class="checkout-items-container" id="checkout-items-container">
+                <!-- Checkout items will be dynamically inserted here by JavaScript -->
+            </div>
+            <div class="checkout-summary">
+                <h3>Total Amount: <span id="checkout-total">R0.00</span></h3>
+                <p id="purchase-confirmation-message" style="display: none; color: green; font-weight: bold; text-align: center; margin-top: 1rem;">
+                    Your purchase has been confirmed! Redirecting...
+                </p>
+                <div class="checkout-actions">
+                    <a href="cart.html" class="btn btn-secondary">Back to Cart</a>
+                    <button id="confirm-purchase-btn" class="btn">Confirm Purchase</button>
+                </div>
+            </div>
         </section>
     </main>
+
+    <!--Footer-->
     <footer class="site-footer-main">
         <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
-    
+
+    <script src="js/main.js"></script>
+
 </body>
 </html>

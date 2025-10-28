@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>biography</title>
+    <meta name="description" content="Dive into the lives of remarkable individuals with our curated collection of biography books. Find stories of history, innovation, and art.">
+    <title>Biography Books | Lives of Remarkable Individuals | Exclusive Books</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
             <h1>Exclusive Books</h1>
             <div class="search-bar">
                 <!--Allows the user to search up a book name-->
-                <input type="text" placeholder="Search for your books here...">
-                <button>Search</button>
+                <input type="text" id="header-search-input" placeholder="Search for your books here...">
+                <button id="header-search-button">Search</button>
             </div>
         </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
@@ -58,7 +59,7 @@
 
     <!--Category Banner thats labled with what section it is-->
     <section class="page-banner">
-        <img src="_images/bookstore_banner_second.jpg" alt="Biography Books Banner">
+        <img src="_images/bookstore_banner_second.jpg" alt="A well-lit, modern bookstore interior">
         <div class="banner-text">
             <h2>Explore Our Biography Collection</h2>
             <p>Discover the lives of remarkable individuals and their journeys.</p>
@@ -68,8 +69,11 @@
     <!--Biography Section-->
     <section class="content-section">
         <h2>Popular Biography Books</h2>
+        <div class="filter-bar">
+            <input type="text" id="book-filter" placeholder="Filter books by title or author...">
+        </div>
         <div class="book-grid">
-            <div class="book-card">
+            <div class="book-card" data-title="Einstein: His Life and Universe" data-author="Walter Isaacson" data-price="450.00" data-image="_images/einstein_his_life_and_universe_biography.jpg">
                 <img src="_images/einstein_his_life_and_universe_biography.jpg" alt="Einstein: His Life and Universe">
                 <div class="book-info">
                     <!--Code implements the books name-->
@@ -86,7 +90,7 @@
                     <a href="#" class="btn">Add to Cart</a>
                 </div>
             </div>
-            <div class="book-card">
+            <div class="book-card" data-title="Napoleon: A Concise Biography" data-author="David A. Bell" data-price="299.00" data-image="_images/napoleon_concise_biography.jpg">
                 <img src="_images/napoleon_concise_biography.jpg" alt="Napoleon: A Concise Biography">
                 <div class="book-info">
                     <h3>Napoleon: A Concise Biography</h3>
@@ -97,7 +101,7 @@
                     <a href="#" class="btn">Add to Cart</a>
                 </div>
             </div>
-            <div class="book-card">
+            <div class="book-card" data-title="Elon Musk" data-author="Walter Isaacson" data-price="500.00" data-image="_images/elon_musk_biography.jpg">
                 <img src="_images/elon_musk_biography.jpg" alt="Elon Musk by Walter Isaacson">
                 <div class="book-info">
                     <h3>Elon Musk</h3>
@@ -108,7 +112,7 @@
                     <a href="#" class="btn">Add to Cart</a>
                 </div>
             </div>
-            <div class="book-card">
+            <div class="book-card" data-title="Biography: An Historiography" data-author="Melanie Nolan" data-price="350.00" data-image="_images/biography_an_historiography.jpg">
                 <img src="_images/biography_an_historiography.jpg" alt="Biography: An Historiography">
                 <div class="book-info">
                     <h3>Biography: An Historiography</h3>
@@ -127,5 +131,7 @@
     <footer class="site-footer-main">
         <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

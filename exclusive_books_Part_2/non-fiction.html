@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Non-fiction</title>
+    <meta name="description" content="Expand your knowledge with our wide range of non-fiction books, covering history, science, self-help, and more.">
+    <title>Non-Fiction Books | Knowledge & Real-Life Stories | Exclusive Books</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
             <h1>Exclusive Books</h1>
             <div class="search-bar">
                 <!--Allows the user to search up a book name-->
-                <input type="text" placeholder="Search for your books here...">
-                <button>Search</button>
+                <input type="text" id="header-search-input" placeholder="Search for your books here...">
+                <button id="header-search-button">Search</button>
             </div>
         </div>
         <!--Navigation to diffrent pagers in the website and are connected -->
@@ -57,7 +58,7 @@
 
         <!--Category Banner-->
         <section class="page-banner">
-            <img src="_images/bookstore_banner.jpg" alt="Non-Fiction Books Banner">
+            <img src="_images/bookstore_banner.jpg" alt="A cozy bookstore aisle with warm lighting and rows of books">
             <div class="banner-text">
                 <h2>Explore Our Non-Fiction Collection</h2>
                 <p>Dive into the world of knowledge and real-life stories with our curated selection of non-fiction books.</p>
@@ -67,8 +68,11 @@
         <!--Non-Fiction Section-->
         <section class="content-section">
             <h2>Popular Non-Fiction Books</h2>
+            <div class="filter-bar">
+                <input type="text" id="book-filter" placeholder="Filter books by title or author...">
+            </div>
             <div class="book-grid">
-                <div class="book-card">
+                <div class="book-card" data-title="Humankind" data-author="Rutger Bregman" data-price="370.00" data-image="_images/humankind_non_fiction.jpg">
                     <img src="_images/humankind_non_fiction.jpg" alt="Humankind">
                     <div class="book-info">
                         <!--Code implements the books name-->
@@ -85,7 +89,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="All the light we cannot see" data-author="Anthony Doerr" data-price="350.00" data-image="_images/all_the_light_we_cannot_see_non_fiction.jpg">
                     <img src="_images/all_the_light_we_cannot_see_non_fiction.jpg" alt="All the Light We Cannot See">
                     <div class="book-info">
                         <h3>All the light we cannot see</h3>
@@ -96,7 +100,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="The Hitchhiker's Guide to AI" data-author="Arthur Goldstuck" data-price="360.00" data-image="_images/the_hitchhiker's_guide_to_ai_non_fiction.jpg">
                     <img src="_images/the_hitchhiker's_guide_to_ai_non_fiction.jpg" alt="The Hitchhiker's Guide to AI">
                     <div class="book-info">
                         <h3>The Hitchhiker's Guide to AI</h3>
@@ -107,7 +111,7 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
-                <div class="book-card">
+                <div class="book-card" data-title="Surrounded by idiots" data-author="Thomas Erikson" data-price="300.00" data-image="_images/surrounded_by_idiots_non_fiction.jpg">
                     <img src="_images/surrounded_by_idiots_non_fiction.jpg" alt="Surrounded by Idiots">
                     <div class="book-info">
                         <h3>Surrounded by idiots</h3>
@@ -126,5 +130,7 @@
     <footer class="site-footer-main">
         <p>&copy; 2024 Exclusive Books. All rights reserved.</p>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
